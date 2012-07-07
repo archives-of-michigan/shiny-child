@@ -106,9 +106,20 @@ body {
 
 body.body_slider #header_wrapper {
 	background: none !important;
-	height: none !important;
+	height: 0px !important;
 }
 
+body.body_slider #header_header_wrapper {
+	background: url("images/bg-home-header.png");
+	background-color: #A1B340;
+	background-position: left bottom;
+	background-repeat: repeat;
+	height: 349px;
+}
+
+body.body_slider #featured {
+	margin: --280px auto 20px;
+}
 
 /* ---------------------------------------- */
 /* portfolio style */
