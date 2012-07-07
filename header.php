@@ -17,9 +17,9 @@ if($post) {
 <title><?php wp_title('&laquo;', true, 'right'); ?><?php bloginfo('name'); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
-<link rel="stylesheet" type="text/css" media="all" href="http://localhost:8888/wordpress/wp-content/themes/shiny-child/searchCustom/search_wp.css" />
-<script type="text/javascript" src="http://localhost:8888/wordpress/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="http://localhost:8888/wordpress/wp-content/themes/shiny-child/searchCustom/cdm_for_wp.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/shiny-child/searchCustom/search_wp.css" />
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="/wp-content/themes/shiny-child/searchCustom/cdm_for_wp.js"></script>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	if ( is_singular() && get_option( 'thread_comments' ) )
