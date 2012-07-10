@@ -402,6 +402,12 @@ ul.img-list, ul.small-list {
 }
 
 /* ---------------------------------------- */
+/* Sidebar INPUT */
+
+.one_third input[type="text"], #page-content .one_half input[type="text"] {
+    width: 230px;
+
+/* ---------------------------------------- */
 /* The Event Calendar Customization */
 
 body.civilwar .grid #tribe-events-calendar-header {
