@@ -37,7 +37,8 @@ function vt_resize( $attach_id = null, $img_url = null, $width, $height, $crop =
 		
 		//$file_path = ltrim( $file_path['path'], '/' );
 		//$file_path = rtrim( ABSPATH, '/' ).$file_path['path'];
-		
+		echo '<!-- zork '.$file_path.' -->';
+		echo '<!-- fnord '.$img_url.' -->';
 		$orig_size = getimagesize( $file_path );
 		
 		$image_src[0] = $img_url;
