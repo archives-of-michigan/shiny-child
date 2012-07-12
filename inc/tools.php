@@ -103,14 +103,14 @@ function vt_resize( $attach_id = null, $img_url = null, $width, $height, $crop =
 
 		// no cache files - let's finally resize it
 		$new_img_path = image_resize( $file_path, $width, $height, $crop );
-		$new_img_size = getimagesize( $new_img_path );
+		// $new_img_size = getimagesize( $new_img_path );
 		$new_img = str_replace( basename( $image_src[0] ), basename( $new_img_path ), $image_src[0] );
 
 		// resized output
 		$vt_image = array (
 			'url' => $new_img,
-			'width' => $new_img_size[0],
-			'height' => $new_img_size[1]
+			// 'width' => $new_img_size[0],
+			// 'height' => $new_img_size[1]
 		);
 		
 		return $vt_image;
