@@ -106,7 +106,7 @@ body {
 
 body.body_slider #header_wrapper {
 	background: none !important;
-	height: 0px !important;
+	height: inherit;
 }
 
 body.body_slider #header_header_wrapper {
