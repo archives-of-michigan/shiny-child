@@ -23,10 +23,6 @@ body {
     margin: 20px 0 0;
 }
 
-#header_bar .content-search {
-	margin: 0 0 0 0;
-}
-
 #social_icons {
 	margin-left: 0px;
 }
@@ -104,12 +100,12 @@ body {
 /* ---------------------------------------- */
 /* home style */
 
-body.body_slider #header_wrapper {
-	background: none !important;
+.body_slider #top_header_wrapper {
+	background-image: url("images/bg/bg3.png.png") !important;
 	height: inherit;
 }
 
-body.body_slider #header_header_wrapper {
+.body_slider #header_wrapper {
 	background: url("images/bg-home-header.png");
 	background-color: #A1B340;
 	background-position: left bottom;
@@ -117,8 +113,9 @@ body.body_slider #header_header_wrapper {
 	height: 349px;
 }
 
-body.body_slider #featured {
-	margin: -280px auto 20px;
+.body_slider #featured {
+	margin: 0px auto 20px;
+	z-index: 2;
 }
 
 /* ---------------------------------------- */
@@ -406,6 +403,7 @@ ul.img-list, ul.small-list {
 
 .one_third input[type="text"], #page-content .one_half input[type="text"] {
     width: 230px;
+}
 
 /* ---------------------------------------- */
 /* The Event Calendar Customization */
