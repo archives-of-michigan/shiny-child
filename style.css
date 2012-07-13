@@ -104,13 +104,13 @@ body {
 /* ---------------------------------------- */
 /* home style */
 
-.body_slider #header_wrapper {
+.body_slider #top_header_wrapper {
 	background-image: url("images/bg/bg3.png.png") !important;
 	height: inherit;
 }
 
-.body_slider #header_header_wrapper {
-	background: url("images/bg-home-header.png");
+.body_slider #header_wrapper {
+	/*background: url("images/bg-home-header.png");*/
 	background-color: #A1B340;
 	background-position: left bottom;
 	background-repeat: repeat;
@@ -407,6 +407,7 @@ ul.img-list, ul.small-list {
 
 .one_third input[type="text"], #page-content .one_half input[type="text"] {
     width: 230px;
+}
 
 /* ---------------------------------------- */
 /* The Event Calendar Customization */

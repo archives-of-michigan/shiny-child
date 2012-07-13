@@ -4,7 +4,7 @@
 }
 #header_header_wrapper {
     background-color: #A1B340;
-    background-image: url("http://cdm16317.contentdm.oclc.org/ui/custom/default/collection/default/resources/custompages/holderforcssimages/bg-main-header.png");
+    background-image: url("../images/bg-main-header.png");
     background-position: left bottom;
     background-repeat: repeat;
     height: 116px;
