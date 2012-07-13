@@ -12,17 +12,20 @@
 }
 
 .body_slider #header{
-	margin: 0 auto 40px;;
+	margin: 0 auto 40px;
 }
 
 #header_wrapper, .body_slider #header_wrapper {
 	background-color: #A1B340;
     background-position: left bottom;
     background-repeat: repeat !important;
-    height: 116px;
     margin-bottom: 40px;
     width: 100%;
 }
+
+.body_slider #header_wrapper {height:420px;}
+
+#header_wrapper {height: 116px;)
 
 #header {
 	margin:0 auto 40px;
