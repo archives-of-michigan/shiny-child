@@ -8,7 +8,7 @@ get_header();
 
 ?>
 
-
+<div id="content_wrapper">
 <?php if($e404_options['home_slider']) : ?>
 	<div id="featured">
 		<div id="featured_border">
@@ -18,8 +18,6 @@ get_header();
 		</div>
 	</div>
 <?php endif; ?>
-
-<div id="content_wrapper">
 <div id="wrapper">
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 	<?php the_content(); ?>
