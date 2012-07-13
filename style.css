@@ -105,8 +105,7 @@ body {
 /* home style */
 
 body.body_slider #header_wrapper {
-	background: none !important;
-	height: inherit;
+	height: 425px;
 }
 
 body.body_slider #header_header_wrapper {
