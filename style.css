@@ -118,6 +118,7 @@ body {
 
 .body_slider #featured {
 	margin: 0px auto 20px;
+	z-index: -1;
 }
 
 /* ---------------------------------------- */
