@@ -104,11 +104,11 @@ body {
 /* ---------------------------------------- */
 /* home style */
 
-body.body_slider #header_wrapper {
-	height: 425px;
+.body_slider #header_wrapper {
+	height: 74px;
 }
 
-body.body_slider #header_header_wrapper {
+.body_slider #header_header_wrapper {
 	background: url("images/bg-home-header.png");
 	background-color: #A1B340;
 	background-position: left bottom;
@@ -116,7 +116,7 @@ body.body_slider #header_header_wrapper {
 	height: 349px;
 }
 
-body.body_slider #featured {
+.body_slider #featured {
 	margin: -280px auto 20px;
 }
 
