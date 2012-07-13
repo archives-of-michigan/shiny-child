@@ -2,16 +2,6 @@
     border-bottom-color: #F3EFE1 !important;
     height: 73px;
 }
-#header_header_wrapper {
-    background-color: #A1B340;
-    background-image: url("../images/bg-main-header.png");
-    background-position: left bottom;
-    background-repeat: repeat;
-    height: 116px;
-    margin-bottom: 40px;
-    width: 100%;
-}
-
 
 #top_header_wrapper {
     margin-bottom: 0;
@@ -23,6 +13,15 @@
 
 .body_slider #header{
 	margin: 0 auto 40px;;
+}
+
+#header_wrapper, .body_slider #header_wrapper {
+	background-color: #A1B340;
+    background-position: left bottom;
+    background-repeat: repeat;
+    height: 116px;
+    margin-bottom: 40px;
+    width: 100%;
 }
 
 #header {
