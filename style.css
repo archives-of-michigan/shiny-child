@@ -96,6 +96,10 @@ body {
 	min-height: 25px;
 	background: url('images/intro-bg.png') 50% 100% no-repeat;
 }
+/* ---------------------------------------- */
+/* home style */
+
+#featured {margin-top: -280px;}
 
 /* ---------------------------------------- */
 /* portfolio style */
