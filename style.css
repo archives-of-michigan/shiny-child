@@ -104,6 +104,10 @@ body {
 /* ---------------------------------------- */
 /* home style */
 
+.body_slider #header_wrapper {
+	height: 425px;
+}
+
 .body_slider #header_header_wrapper {
 	background: url("images/bg-home-header.png");
 	background-color: #A1B340;
