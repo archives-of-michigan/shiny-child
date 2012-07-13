@@ -18,7 +18,7 @@
 #header_wrapper, .body_slider #header_wrapper {
 	background-color: #A1B340;
     background-position: left bottom;
-    background-repeat: repeat;
+    background-repeat: repeat !important;
     height: 116px;
     margin-bottom: 40px;
     width: 100%;
