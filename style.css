@@ -105,7 +105,8 @@ body {
 /* home style */
 
 .body_slider #header_wrapper {
-	height: 425px;
+	background: url("images/bg/bg3.png.png");
+	height: inherit;
 }
 
 .body_slider #header_header_wrapper {
