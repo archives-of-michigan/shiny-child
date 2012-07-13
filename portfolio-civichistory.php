@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Cultural History Portfolio with Sidebar
+ * Template name: Civic History Portfolio with Sidebar
  *
  */
 
