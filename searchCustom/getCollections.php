@@ -1,5 +1,4 @@
 <?php
-require("dBug.php");
 require("Pest.php");
 require("PestJSON.php"); //Pest is a client for RESTful web services
 
@@ -10,7 +9,6 @@ function dmGetCollectionListAPI(){
 }
 
 $myCats = dmGetCollectionListAPI();
-/*new dBug($myCats);*/
 
 print '<select id="collectionsSelect" multiple size="12" >';
 
