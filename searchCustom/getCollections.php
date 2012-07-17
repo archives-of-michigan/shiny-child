@@ -1,5 +1,5 @@
 <?php
-header("HTTP/1.1 200 OK");
+header('HTTP/1.1 200 OK')
 
 require("Pest.php");
 require("PestJSON.php"); //Pest is a client for RESTful web services
