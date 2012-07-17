@@ -21,7 +21,7 @@ function getCollectionSelect(){
 			print '<option value="'.$myCats[$key]['alias'].'">'.$myCats[$key]['name'].'</option>';
 
 		}
-	print '</select>';
+	print '</select><p>&nbsp;</p>';
 	
 	die();
 }
