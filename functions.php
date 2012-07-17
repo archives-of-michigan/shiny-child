@@ -7,6 +7,21 @@ if ( STYLESHEETPATH == TEMPLATEPATH ) {
 	define('OF_DIRECTORY', get_stylesheet_directory_uri());
 }
 
+//DS added for collection in advanced search
+function setup_collections_ajax()
+{
+	wp_enqueue_script( 'collections_ajax_function', get_template_directory_uri().'/searchCustom/getCollections.js', 'jquery', true);
+	wp_localize_script( 'collections_ajax_function', 'my_collections_ajax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
+	
+}
+
+$dirNameC = dirname(__FILE__);
+require_once ("$dirNameC/searchCustom/getCollections.php");
+
+add_action("wp_ajax_nopriv_getCollectionSelect", "getCollectionSelect");
+add_action("wp_ajax_getCollectionSelect", "getCollectionSelect");
+add_action('template_redirect', 'setup_collections_ajax');
+
 if(!isset($content_width))
 	$content_width = 930;
 

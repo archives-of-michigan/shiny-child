@@ -22,13 +22,7 @@ jQuery(document).ready(function() {
 	});
 	
 	jQuery('#advanced_max_collections_link').click(function(){
-		jQuery.ajax({
-			url: "http://seekingmichigan.org/wp-content/themes/shiny-child/searchCustom/getCollections.php",
-			cache: false
-		}).done(function( html ) {
-			jQuery("#advanced_max_collections_link").parent().append(html);
-			jQuery("#advanced_max_collections_link").remove();
-		});
+		get_collections_js();
 	});
 	
 	jQuery(".remove_adv_search_row_link").click(function(){
