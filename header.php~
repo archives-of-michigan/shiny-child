@@ -54,7 +54,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 
 <?php do_action('after_body'); ?>
 <div id="main_wrapper">
-<div id="header_wrapper">
+<div id="top_header_wrapper">
 	<div id="header_bar_wrapper">
 		<div id="header_bar">
 			<div id="header_bar_inner">
@@ -320,7 +320,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 	
 
 <span class="clear"></span>	
-<div id="header_header_wrapper">
+<div id="header_wrapper">
 <div id="header">
 	<div id="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo $e404_options['logo_url']; ?>" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" /></a></div>
 	<div id="navigation" class="rightside">
