@@ -14,6 +14,7 @@ jQuery(document).ready(function() {
 			
 		}
 		jQuery("#adv_search").slideToggle();
+		get_collections_js();
 	
 	});
 	
@@ -21,9 +22,9 @@ jQuery(document).ready(function() {
 		window.location= "http://cdm16317.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
 	});
 	
-	jQuery('#advanced_max_collections_link').click(function(){
+	/*jQuery('#advanced_max_collections_link').click(function(){
 		get_collections_js();
-	});
+	});*/
 	
 	jQuery(".remove_adv_search_row_link").click(function(){
 		var toToss = jQuery(this).attr('rid');
@@ -68,13 +69,14 @@ jQuery(document).ready(function() {
 		var conn = '/conn/';
 		var collection = '';
 		
-		if (jQuery('#collectionsSelect').length){
-			var colString = jQuery('#collectionsSelect').val();
-			var cleanCol = colString.join(",");
-			cleanCol = cleanCol.replace(/\//g,"");
-			cleanCol = cleanCol.replace(/,/g,"!");
-			collection = '/collection/' + cleanCol;
-		}
+		var colString = [];
+		jQuery('.collBoxes:checked').each(function() {
+			colString.push(jQuery(this).val());
+		});
+		var cleanCol = colString.join(",");
+		cleanCol = cleanCol.replace(/\//g,"");
+		cleanCol = cleanCol.replace(/,/g,"!");
+		collection = '/collection/' + cleanCol;
 		
 		for (i=0; i< jQuery('.adv_search_row').length; i++){
 			if (i > 0){

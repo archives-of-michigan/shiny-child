@@ -274,10 +274,16 @@ a.suggested_word_selected {
 .spacePad30T { padding-top: 30px; }
 .spacePad30B { padding-bottom: 30px; }
 
-#collectionsSelect{
+#collectionsBoxes{
 	width:200px;
 }
 
 #spacerDiv{
 	height: 20px;
+}
+
+#collectionRow{
+	padding-top:1px;
+	padding-bottom:1px;
+	margin: 0;
 }

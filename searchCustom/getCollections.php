@@ -14,14 +14,22 @@ function getCollectionSelect(){
 	
 	$myCats = dmGetCollectionListAPI();
 
-	print '<select id="collectionsSelect" multiple size="12" >';
+	print '<div id="collectionsBoxes">';
 
 	    foreach ($myCats as $key => $val) {
+			$ider = str_replace('/','',$myCats[$key]['alias']);
 
-			print '<option value="'.$myCats[$key]['alias'].'">'.$myCats[$key]['name'].'</option>';
-
+			echo '<div class="collectionRow"><input type="checkbox" class="collBoxes" name="collectionsSelect" value="'.$myCats[$key]['alias'].'" id="idItem'.$ider.'"';
+			
+			if ($myCats[$key]['alias'] == '/p129401coll7'){
+				echo 'checked';
+			}
+			
+			echo '><span class="collectionsText2"><label for="idItem'.$ider.'">&nbsp;'.$myCats[$key]['name'].'</label></span></div>';	
+			
+			
 		}
-	print '</select><p>&nbsp;</p>';
+	print '</div><p>&nbsp;</p>';
 	
 	die();
 }

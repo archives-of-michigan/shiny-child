@@ -222,10 +222,11 @@ $cats = wp_get_post_categories($posts[0]->ID);
 				</div>
 				<div id="adv_search_col_2">
 				<h3 class="cdm_style">Searching collections:</h3>
-				<div id="advsearchAllMoreText" class="spaceMar10B light_gray_text">All Collections</div>
+				
 				<span class="clear"></span>
 				<div>
-				<a id="advanced_max_collections_link" class="action_link_10" href="javascript://"> Add or remove collections </a>
+					<!---<a id="advanced_max_collections_link" class="action_link_10" href="javascript://"> Add or remove collections </a>--->
+					<img id="advanced_max_collections_link" src="http://seekingmichigan.org//wp-includes/js/tinymce/themes/advanced/skins/default/img/progress.gif" >
 				</div>
 				</div>
 				<span class="clear"></span>
