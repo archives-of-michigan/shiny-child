@@ -96,27 +96,10 @@ body {
 	min-height: 25px;
 	background: url('images/intro-bg.png') 50% 100% no-repeat;
 }
-
 /* ---------------------------------------- */
 /* home style */
 
-.body_slider #top_header_wrapper {
-	background-image: url("images/bg/bg3.png.png") !important;
-	height: inherit;
-}
-
-.body_slider #header_wrapper {
-	background: url("images/bg-home-header.png");
-	background-color: #A1B340;
-	background-position: left bottom;
-	background-repeat: repeat;
-	height: 349px;
-}
-
-.body_slider #featured {
-	margin: 0px auto 20px;
-	z-index: 2;
-}
+#featured {margin-top: -280px;}
 
 /* ---------------------------------------- */
 /* portfolio style */
