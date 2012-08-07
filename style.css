@@ -393,7 +393,7 @@ ul.img-list, ul.small-list {
 
 
 body.civilwar #tribe-events-content {
-	padding: 1px 0px;
+	padding: 40px 0px;
 }
 
 body.civilwar .grid #tribe-events-calendar-header {
@@ -401,10 +401,9 @@ body.civilwar .grid #tribe-events-calendar-header {
 }
 
 body.civilwar .tribe-events-month-nav {
-	width: 580px;
+	width: 380px;
 	float: left;
 	padding: 0;
-	margin-bottom:-30px;
 }
 
 body.civilwar select {
@@ -414,17 +413,13 @@ body.civilwar select {
 body.civilwar #tribe-events-events-picker, #tribe-events-picker {
 	display: inline;
 	float: left;
-	padding: 18px 10px 0px 10px;
-}
-
-body.civilwar .grid .tribe-events-calendar-buttons {
-	margin-top: -60px;
+	padding: 0px 10px 5px 10px;
 }
 
 body.civilwar .tribe-events-calendar-buttons {
 	position: absolute;
 	float: right;
-	width: 233px;
+	width: 230px;
 	right: 10px;
 	margin-top: -40px;
 }
@@ -438,10 +433,6 @@ body.civilwar .tribe-events-calendar-buttons a.tribe-events-button-on {
 	margin-left: 41px;
 }
 
-body.civilwar .grid .tribe-events-calendar-buttons a.tribe-events-button-off {
-	margin-top:22px;
-}
-
 body.civilwar .tribe-events-calendar-buttons a {
 	margin:3px 0px 24px 10px;
 }
@@ -452,7 +443,6 @@ body.civilwar .tribe-events-prev-month {
 
 body.civilwar .tribe-events-next-month {
 	float: left;
-	margin-top: -10px;
 }
 
 body.civilwar ul.upcoming {
