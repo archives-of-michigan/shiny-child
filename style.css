@@ -465,3 +465,7 @@ body.civilwar ul.upcoming {
 body.civilwar #wrapper ul li {
 	list-style: none;
 }
+
+body.civilwar .tribe-events-calendar td a {
+    font-size: 81%;
+}
