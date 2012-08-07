@@ -391,6 +391,11 @@ ul.img-list, ul.small-list {
 /* ---------------------------------------- */
 /* The Event Calendar Customization */
 
+
+body.civilwar #tribe-events-content {
+	padding: 1px 0px;
+}
+
 body.civilwar .grid #tribe-events-calendar-header {
 	height: 0px;
 }
