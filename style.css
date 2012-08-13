@@ -525,3 +525,7 @@ body.teach #wp-calendar table.nav tr td,
 body.teach #wp-calendar table.nav tr a {
 	background: none repeat scroll 0 0 #fff;
 }
+
+body.teach #wp-calendar td {
+	vertical-align: middle;
+}
