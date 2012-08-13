@@ -459,3 +459,69 @@ body.civilwar #wrapper ul li {
 body.civilwar .tribe-events-calendar td a {
     font-size: 81%;
 }
+
+/* ---------------------------------------- */
+/* The EventCalendar with PHP Customization */
+
+body.teach #wp-calendar {
+ 	background: #fff;
+	color: #666;
+	margin-bottom: 20px;;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	font-size:12px;
+	line-height:18px;
+}
+
+body.teach #wp-calendar caption a {
+	color: #666;
+}
+
+body.teach #wp-calendar #prev {
+  text-align:left;
+  background-color: #FFFFFF;
+  padding: 5px;
+  text-align: center;
+  vertical-align: top;
+}
+
+body.teach #wp-calendar #next {
+  text-align:right;
+  background-color: #FFFFFF;
+  padding: 5px;
+  text-align: center;
+  vertical-align: top;
+}
+
+body.teach .ec3_eventday a {
+    background: none repeat scroll 0 0 #B2B2B2;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF !important;
+    display: inline-block;
+    height: 18px;
+    margin-top: -3px;
+    padding: 1px;
+    text-decoration: none;
+    width: 18px;
+}
+
+body.teach #wp-calendar table td,
+body.teach #wp-calendar table.nav tr td {
+ padding:5px;
+ border:none;
+}
+
+body.teach #wp-calendar #prev a,
+body.teach #wp-calendar #next a {
+	background: none repeat scroll 0 0 #fff;
+	text-decoration: underline;
+}
+
+body.teach #wp-calendar table.nav tr td,
+body.teach #wp-calendar table.nav tr a {
+	background: none repeat scroll 0 0 #fff;
+}
