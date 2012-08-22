@@ -44,7 +44,7 @@ a:hover,
 /* header */
 #header_wrapper {
 	background-color: #a1b340;
-	background-image: url('../images/bg/bg3.png');
+	/*background-image: url('../images/bg/bg3.png');*/
 	background-position: left bottom;
 	background-repeat: repeat;
 }
