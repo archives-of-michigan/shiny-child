@@ -129,45 +129,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 											<option value="title">Title</option>
 											<option value="subjec">Subject</option>
 											<option value="descri">Description</option>
-											<option value="creato">Creator</option>
-											<option value="publis">Publisher</option>
-											<option value="contri">Contributors</option>
 											<option value="date">Date</option>
-											<option value="type">Type</option>
-											<option value="format">Format</option>
-											<option value="identi">Identifier</option>
-											<option value="source">Source</option>
-											<option value="langua">Language</option>
-											<option value="relati">Relation</option>
-											<option value="covera">Coverage</option>
-											<option value="rights">Rights</option>
-											<option value="audien">Audience</option>
-											<option value="titlea">Title-Alternative</option>
-											<option value="descria">Description-Table Of Contents</option>
-											<option value="describ">Description-Abstract</option>
-											<option value="datea">Date-Created</option>
-											<option value="dateb">Date-Valid</option>
-											<option value="datec">Date-Available</option>
-											<option value="dated">Date-Issued</option>
-											<option value="datee">Date-Modified</option>
-											<option value="formata">Format-Extent</option>
-											<option value="formatb">Format-Medium</option>
-											<option value="relatia">Relation-Is Version Of</option>
-											<option value="relatib">Relation-Has Version</option>
-											<option value="relatic">Relation-Is Replaced By</option>
-											<option value="relatid">Relation-Replaces</option>
-											<option value="relatie">Relation-Is Required By</option>
-											<option value="relatif">Relation-Requires</option>
-											<option value="relatig">Relation-Is Part Of</option>
-											<option value="relatih">Relation-Has Part</option>
-											<option value="relatii">Relation-Is Referenced By</option>
-											<option value="relatij">Relation-References</option>
-											<option value="relatik">Relation-Is Format Of</option>
-											<option value="relatil">Relation-Has Format Of</option>
-											<option value="relatim">Relation-Conforms To</option>
-											<option value="coveraa">Coverage-Spatial</option>
-											<option value="coverab">Coverage-Temporal</option>
-											<option value="audiena">Audience-Mediator</option>
 										</select>
 									</li>
 									<li class="leftside spaceMar5L">
@@ -200,49 +162,11 @@ $cats = wp_get_post_categories($posts[0]->ID);
 								<select id="rid1_field" class="adv_search_domain_dd" onblur="this.style.position='';this.style.width=''" onchange="this.style.position='';this.style.width=''" onmousedown="if($.browser.msie){this.style.position='relative';this.style.width='auto'}">
 									<option selected="selected" value="all">All fields</option>
 									<option value="title">Title</option>
-				<option value="subjec">Subject</option>
-				<option value="descri">Description</option>
-				<option value="creato">Creator</option>
-				<option value="publis">Publisher</option>
-				<option value="contri">Contributors</option>
-				<option value="date">Date</option>
-				<option value="type">Type</option>
-				<option value="format">Format</option>
-				<option value="identi">Identifier</option>
-				<option value="source">Source</option>
-				<option value="langua">Language</option>
-				<option value="relati">Relation</option>
-				<option value="covera">Coverage</option>
-				<option value="rights">Rights</option>
-				<option value="audien">Audience</option>
-				<option value="titlea">Title-Alternative</option>
-				<option value="descria">Description-Table Of Contents</option>
-				<option value="describ">Description-Abstract</option>
-				<option value="datea">Date-Created</option>
-				<option value="dateb">Date-Valid</option>
-				<option value="datec">Date-Available</option>
-				<option value="dated">Date-Issued</option>
-				<option value="datee">Date-Modified</option>
-				<option value="formata">Format-Extent</option>
-				<option value="formatb">Format-Medium</option>
-				<option value="relatia">Relation-Is Version Of</option>
-				<option value="relatib">Relation-Has Version</option>
-				<option value="relatic">Relation-Is Replaced By</option>
-				<option value="relatid">Relation-Replaces</option>
-				<option value="relatie">Relation-Is Required By</option>
-				<option value="relatif">Relation-Requires</option>
-				<option value="relatig">Relation-Is Part Of</option>
-				<option value="relatih">Relation-Has Part</option>
-				<option value="relatii">Relation-Is Referenced By</option>
-				<option value="relatij">Relation-References</option>
-				<option value="relatik">Relation-Is Format Of</option>
-				<option value="relatil">Relation-Has Format Of</option>
-				<option value="relatim">Relation-Conforms To</option>
-				<option value="coveraa">Coverage-Spatial</option>
-				<option value="coverab">Coverage-Temporal</option>
-				<option value="audiena">Audience-Mediator</option>
-				</select>
-				</li>
+									<option value="subjec">Subject</option>
+									<option value="descri">Description</option>
+									<option value="date">Date</option>
+								</select>
+							</li>
 				<li class="leftside spaceMar5L">
 				<select id="rid1_connector" class="adv_search_and_or_dd">
 				<option selected="selected" value="and">and</option>
@@ -298,10 +222,11 @@ $cats = wp_get_post_categories($posts[0]->ID);
 				</div>
 				<div id="adv_search_col_2">
 				<h3 class="cdm_style">Searching collections:</h3>
-				<div id="advsearchAllMoreText" class="spaceMar10B light_gray_text">All Collections</div>
+				
 				<span class="clear"></span>
 				<div>
-				<a id="advanced_max_collections_link" class="action_link_10" href="javascript://"> Add or remove collections </a>
+					<!---<a id="advanced_max_collections_link" class="action_link_10" href="javascript://"> Add or remove collections </a>--->
+					<img id="advanced_max_collections_link" src="http://seekingmichigan.org//wp-includes/js/tinymce/themes/advanced/skins/default/img/progress.gif" >
 				</div>
 				</div>
 				<span class="clear"></span>
