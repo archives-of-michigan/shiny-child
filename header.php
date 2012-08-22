@@ -49,7 +49,6 @@ $cats = wp_get_post_categories($posts[0]->ID);
 			elseif ($cat == '4' ) { echo ' class="teach"'; }
 			endif;
 		}
-	endif;
 	}
 }
 ?>>
