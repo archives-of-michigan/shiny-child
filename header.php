@@ -41,7 +41,7 @@ if(substr(e404_get_current_template(), 0, 9) == 'home-page') {
 	echo ' class="teach"';
 } elseif(is_category( 'reveille' )) {
 	echo ' class="civilwar"';
-} elseif(is_category( 'teach' )) {
+} elseif(is_category( 'lessons' )) {
 	echo ' class="teach"';
 } elseif( is_single() ) {
 $cats = wp_get_post_categories($posts[0]->ID);
