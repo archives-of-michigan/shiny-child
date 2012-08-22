@@ -47,7 +47,6 @@ $cats = wp_get_post_categories($posts[0]->ID);
 		foreach ($cats as $cat) {
 			if ($cat == '2101' ) { echo ' class="civilwar"'; }
 			elseif ($cat == '4' ) { echo ' class="teach"'; }
-			endif;
 		}
 	}
 }
