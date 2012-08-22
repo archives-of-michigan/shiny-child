@@ -515,11 +515,11 @@ body.teach #wp-calendar table.nav tr td {
  border:none;
 }
 
-body.teach #wp-calendar table.nav tr td {
+body.teach #wp-calendar table.nav tr td a{
 	color: #757575;
 }
 
-body.teach #wp-calendar #prev a,
+body.teach #wp-calendar #prev a,              
 body.teach #wp-calendar #next a {
 	background: none repeat scroll 0 0 #fff;
 	text-decoration: underline;
