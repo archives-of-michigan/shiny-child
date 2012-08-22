@@ -52,7 +52,6 @@ $cats = wp_get_post_categories($posts[0]->ID);
 	endif;
 	}
 }
-endif;
 ?>>
 
 <?php do_action('after_body'); ?>
