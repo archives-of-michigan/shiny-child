@@ -129,12 +129,17 @@
 }
 
 #adv_search_content { padding: 5px 0 5px 5px; }
-#adv_search_col_1 { float: left; }
+#adv_search_col_1 { float: left; font-size: 10px; }
+
+#adv_search_col_1 h3, #adv_search_col_2 h3 {
+	font-size:18px;
+}
 
 #adv_search_col_2 {
 	padding: 10px 0 0 20px;
 	float: left;
 	margin-left: 100px;
+	font-size: 11px;
 }
 
 #adv_search_query_builder_list li input.adv_search_str {
