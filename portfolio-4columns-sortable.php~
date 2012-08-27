@@ -50,7 +50,7 @@ if($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_
 <?php
 	if($i < 3) { // starts the section for the first two portfolio items
 ?>
-	<div class="one_half<?php if($i % 2 == 0) echo ' last'; ?>">
+	<div class="one_half<?php if($i % 2 == 0) echo ' last'; ?> featuredcoll">
 		<div class="portfolio-item" id="post-<?php the_ID(); ?>">
 			<?php
 			$preview_url = e404_get_portfolio_preview_url($post->ID);

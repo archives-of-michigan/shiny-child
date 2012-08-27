@@ -73,7 +73,7 @@ if($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_
 			<div class="fancy_meta">
 				<ul>
 					<li><a class="tiptip fancy_icon fancy_details" href="<?php the_permalink(); ?>" title="<?php _e('More Details', 'shiny'); ?>"><?php _e('More Details', 'shiny'); ?></a></li>
-					<li><a class="tiptip fancy_icon fancy_preview" rel="prettyphoto" href="<?php echo $preview_url; ?>" title="<?php _e('Preview', 'shiny'); ?>"><?php _e('Preview', 'shiny'); ?></a></li>
+					<li><a class="tiptip fancy_icon fancy_preview" rel="prettyphoto" href="<?php echo $portfolio_url; ?>" title="View All Items">View All Items</a></li>
 			<?php if($e404_all_options['e404_portfolio_like_this'] == 'true') : $like_class = e404_liked($post->ID) ? 'fancy_likes_you_like' : 'fancy_likes'; ?>
 					<li><a class="tiptip fancy_icon like_this <?php echo $like_class; ?>" href="#" id="like-<?php the_ID(); ?>" title="<?php echo e404_likes_text(e404_like_this($post->ID), false); ?>"><?php e404_likes_text(e404_like_this($post->ID), false); ?></a></li>
 			<?php endif; ?>
