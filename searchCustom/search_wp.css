@@ -45,7 +45,7 @@
     margin: 0 0 0 10px;
 }
 
-.search_content_container .leftside {
+.search_content_container.leftside {
 	width: 300px;
 }
 
