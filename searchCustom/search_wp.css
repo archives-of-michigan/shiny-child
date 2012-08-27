@@ -45,10 +45,6 @@
     margin: 0 0 0 10px;
 }
 
-.search_content_container.leftside {
-	width: 300px;
-}
-
 .search_content_container, .search_content_container_advanced {
     height: 100%;
     vertical-align: middle;
