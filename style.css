@@ -125,7 +125,7 @@ ul.portfolio-columns {
     width: auto;
 }
 
-.portfolio-meta a {color: #336699 !important;}
+.portfolio .posted-meta a {color: #336699 !important;}
 
 /* ---------------------------------------- */
 /* discover viewer style */
