@@ -1,28 +1,36 @@
 #header_bar_wrapper {
-  	border-bottom-color: #F3EFE1 !important;
+    border-bottom-color: #F3EFE1 !important;
     height: 73px;
 }
-#header_header_wrapper {
-    background-color: #A1B340;
-    background-image: url("../images/bg-main-header.png");
-    background-position: left bottom;
-    background-repeat: repeat;
-    height: 116px;
-    margin-bottom: 40px;
-    width: 100%;
-}
 
-
-#header_wrapper {
+#top_header_wrapper {
     margin-bottom: 0;
     width: 100%;
-	height: 74px;
+    height: 74px;
 	background-color: #F3EFE1 !important; 
 	border: 0;
 }
 
-#header{
-	margin: 0 auto 40px;;
+.body_slider #header{
+	margin: 0 auto 40px;
+}
+
+#header_wrapper, .body_slider #header_wrapper {
+	background-color: #A1B340;
+    background-position: left bottom;
+    background-repeat: repeat !important;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.body_slider #header_wrapper {height:375px;}
+
+#header_wrapper {height: 116px;}
+
+#header {
+	margin:0 auto 40px;
+	background-repeat: repeat;
+	background-position: left bottom;
 }
 
 #search {
@@ -266,10 +274,16 @@ a.suggested_word_selected {
 .spacePad30T { padding-top: 30px; }
 .spacePad30B { padding-bottom: 30px; }
 
-#collectionsSelect{
+#collectionsBoxes{
 	width:200px;
 }
 
 #spacerDiv{
 	height: 20px;
+}
+
+#collectionRow{
+	padding-top:1px;
+	padding-bottom:1px;
+	margin: 0;
 }
