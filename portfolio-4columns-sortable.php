@@ -46,6 +46,11 @@ if($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_
 					foreach($item_categories as $item_category)
 						$cats .= ' '.$item_category->slug;
 				}
+				
+	$portfolio_page_id = get_option('e404_portfolio_page');
+	$portfolio_page = get_page($portfolio_page_id);
+	$portfolio_cdmid = get_post_meta($post->ID, 'wpcf-cdmid', true);
+	$portfolio_url = "http://cdm16317.contentdm.oclc.org/cdm/search/collection/".$portfolio_cdmid;
 				?>
 <?php
 	if($i < 3) { // starts the section for the first two portfolio items
