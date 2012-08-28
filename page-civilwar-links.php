@@ -7,7 +7,7 @@
 get_header(); ?>
 	
 	<div id="wrapper">
-		<div id="civilwar-intro"><a href="http://seekingmichigan.org/discover/civil-war/"></a>
+		<div id="civilwar-intro"><a href="http://seekingmichigan.org/civil-war/"></a>
 			<div id="intro" class="text-intro">
 			</div>
 		</div>
