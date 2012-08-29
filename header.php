@@ -33,6 +33,8 @@ if($post) {
 $isHomer = false;
 if(substr(e404_get_current_template(), 0, 9) == 'home-page') {
 	echo ' class="body_slider"';
+	} elseif(substr(e404_get_current_template(), 0, 9) == 'page-ajax') {
+	echo ' class=""';
 } elseif(substr(e404_get_current_template(), 0, 18) == 'portfolio-civilwar') {
 	echo ' class="civilwar"';
 } elseif(substr(e404_get_current_template(), 0, 13) == 'page-civilwar') {
