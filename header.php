@@ -37,6 +37,8 @@ if(substr(e404_get_current_template(), 0, 9) == 'home-page') {
 	echo ' class="civilwar"';
 } elseif(substr(e404_get_current_template(), 0, 13) == 'page-civilwar') {
 	echo ' class="civilwar"';
+} elseif(substr(e404_get_current_template(), 0, 4) == 'page') {
+	echo ' class="civilwar"';
 } elseif(substr(e404_get_current_template(), 0, 10) == 'page-teach') {
 	echo ' class="teach"';
 } elseif(is_category( 'reveille' )) {
