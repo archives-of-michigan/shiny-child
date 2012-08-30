@@ -14,7 +14,12 @@
 				<div id="intro" class="text-intro">
 		</div>
 	
-<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?>
+	<?php if($e404_options['blog_intro_type'] != 'none' || $e404_options['breadcrumbs']) echo '<div id="head_intro">'; ?>
+		<?php include(OF_FILEPATH.'/blog-intro-box.php'); ?>
+		<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
+	<?php if($e404_options['blog_intro_type'] != 'none' || $e404_options['breadcrumbs']) echo '</div>'; ?>
+	
+	<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?>
 		<div id="sidebar" class="one_third sidebar-left">
 	<?php get_sidebar('blog'); ?>
 		</div>
