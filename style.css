@@ -453,11 +453,11 @@ body.civilwar .tribe-events-next-month {
 	float: left;
 }
 
-body.civilwar li.tribe-events {
-	background-image: url("images/bullets/calendar.png");
+body.civilwar li.tribe_events {
 	background-position: 0 15px;
 	background-repeat: no-repeat;
 	padding: 12px 0 10px 30px;
+	background-image: url("images/bullets/calendar.png");
 }
 
 body.civilwar #wrapper ul li {
