@@ -7,14 +7,13 @@
 get_header(); ?>
 	
 	<div id="wrapper"<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?> class="sidebar-left-wrapper"<?php elseif($e404_options['blog_layout'] == 'sidebar-right') : ?> class="sidebar-right-wrapper"<?php endif; ?>>
-	
-	<div id="wrapper">
-		<div id="civilwar-intro"><a href="http://seekingmichigan.org/civil-war/"></a>
-			<div id="intro" class="text-intro">
-		</div>
-	</div>	
-	
+		<div id="civilwar-intro"><a href="http://localhost:8888/wordpress/discover/civil-war/"></a></div>
 		<div id="wrapper_inner">
+			<div id="wrapper">
+				<div id="civilwar-intro">
+					<div id="intro" class="text-intro">
+				</div>
+			</div>
 	
 	<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?>
 		<div id="sidebar" class="one_third sidebar-left">
