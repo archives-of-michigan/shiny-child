@@ -10,9 +10,9 @@
 		
 		<div id="wrapper">
 			<div id="civilwar-intro"><a href="http://seekingmichigan.org/civil-war/"></a>
-				<div id="intro" class="text-intro">
+				<div id="intro" class="text-intro"></div>
+			</div>
 		</div>
-	
 	<?php if($e404_options['blog_intro_type'] != 'none' || $e404_options['breadcrumbs']) echo '<div id="head_intro">'; ?>
 		<?php include(OF_FILEPATH.'/blog-intro-box.php'); ?>
 		<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
