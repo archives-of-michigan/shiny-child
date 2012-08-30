@@ -460,6 +460,10 @@ body.civilwar li.tribe_events {
 	background-image: url("images/bullets/calendar.png");
 }
 
+body.civilwar ul.upcoming {
+	margin: 0 0 10px 0 !important;
+}
+
 body.civilwar #wrapper ul li {
 	list-style: none;
 }
