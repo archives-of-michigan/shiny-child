@@ -3,6 +3,7 @@
   Template Name Posts: Reveille
  */
 ?>
+
 <?get_header(); ?>
 	
 	<div id="wrapper"<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?> class="sidebar-left-wrapper"<?php elseif($e404_options['blog_layout'] == 'sidebar-right') : ?> class="sidebar-right-wrapper"<?php endif; ?>>	
@@ -13,9 +14,9 @@
 				<div id="intro" class="text-intro">
 		</div>
 	
-	<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?>
+<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?>
 		<div id="sidebar" class="one_third sidebar-left">
-	<?php get_sidebar('civil war'); ?>
+	<?php get_sidebar('blog'); ?>
 		</div>
 	<?php endif; ?>
 
@@ -24,6 +25,20 @@
 	<?php else: ?>
 		<div id="page-content" class="two_third<?php if($e404_options['blog_layout'] == 'sidebar-left') echo ' last'; ?>">
 	<?php endif; ?>
+
+	<?php
+		if (have_posts())
+			the_post();
+		if (is_day())
+			printf('<div class="full_page"><h1 class="page-title">'.__('Daily Archives: <span>%s</span>', 'shiny').'</h1></div>', get_the_date());
+		elseif(is_month())
+			printf('<div class="full_page"><h1 class="page-title">'.__('Monthly Archives: <span>%s</span>', 'shiny').'</h1></div>', get_the_date('F Y'));
+		elseif(is_year())
+			printf('<div class="full_page"><h1 class="page-title">'.__('Yearly Archives: <span>%s</span>', 'shiny').'</h1></div>', get_the_date('Y'));
+		elseif(is_tag())
+			printf('<div class="full_page"><h1 class="page-title">'.__('Tag Archives: <span>%s</span>', 'shiny').'</h1></div>', single_tag_title('', false));
+		rewind_posts();
+	?>
 
 <?php
 while ( have_posts() ) : the_post(); ?>
@@ -97,10 +112,7 @@ while ( have_posts() ) : the_post(); ?>
 
 			<?php if(is_single() && !is_attachment() && $e404_options['blog_share_it']) : ?>
 				<div class="share-this">
-</div>
-	<?php endif; ?>
-		<br class="clear" />
-		</div>					<?php e404_share_this(); ?>
+					<?php e404_share_this(); ?>
 				</div>
 			<?php endif; ?>
 				
@@ -129,11 +141,11 @@ while ( have_posts() ) : the_post(); ?>
 		</div>
 	<?php if($e404_options['blog_layout'] == 'sidebar-right') : ?>
 		<div id="sidebar" class="one_third last sidebar-right">
-	<?php get_sidebar('civil war'); ?>
+	<?php get_sidebar('blog'); ?>
 		</div>
 	<?php endif; ?>
 		<br class="clear" />
 		</div>
 	</div>
-	
+
 <?php get_footer(); ?>
