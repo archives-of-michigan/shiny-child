@@ -2,9 +2,7 @@
 /*
   Template Name Posts: Reveille
  */
-?>
-
-<?get_header(); ?>
+get_header(); ?>
 	
 	<div id="wrapper"<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?> class="sidebar-left-wrapper"<?php elseif($e404_options['blog_layout'] == 'sidebar-right') : ?> class="sidebar-right-wrapper"<?php endif; ?>>	
 		<div id="wrapper_inner">
