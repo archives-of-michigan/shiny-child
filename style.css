@@ -457,6 +457,9 @@ body.civilwar li.tribe_events {
 	background-position: 0 15px;
 	background-repeat: no-repeat;
 	padding: 12px 0 10px 30px;
+}
+
+body.civilwar ul.upcoming {
 	background-image: url("images/bullets/calendar.png");
 }
 
