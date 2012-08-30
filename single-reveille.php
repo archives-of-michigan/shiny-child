@@ -12,7 +12,6 @@
 			<div id="civilwar-intro"><a href="http://seekingmichigan.org/civil-war/"></a>
 				<div id="intro" class="text-intro">
 		</div>
-	</div>
 	
 	<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?>
 		<div id="sidebar" class="one_third sidebar-left">
