@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Civil War Portfolio with Sidebar
+ * Template name: Civic History Portfolio with Sidebar
  *
  */
 
@@ -9,22 +9,15 @@ get_header();
 // Show only items that are in the primarysources portfolio-category
 
 $taxonomy = "portfolio-category";
-$term = "primarysources";
+$term = "civic-history";
 
 ?>
 	
 	<div id="wrapper"<?php if($e404_options['portfolio_layout'] == 'sidebar-left') : ?> class="sidebar-left-wrapper"<?php elseif($e404_options['portfolio_layout'] == 'sidebar-right') : ?> class="sidebar-right-wrapper"<?php endif; ?>>
-		<div id="wrapper_inner">
-		
-			<div id="wrapper">
-				<div id="civilwar-intro">
-					<div id="intro" class="text-intro">
-				</div>
-			</div>
 	
 	<?php if($e404_options['portfolio_layout'] == 'sidebar-left') : ?>
 		<div id="sidebar" class="one_third sidebar-left">
-	<?php get_sidebar('civil war'); ?>
+	<?php get_sidebar('blog'); ?>
 		</div>
 	<?php endif; ?>
 		<div id="page-content" class="two_third<?php if($e404_options['portfolio_layout'] == 'sidebar-left') echo ' last'; ?>">
@@ -84,7 +77,7 @@ endif;
 	</div>
 	<?php if($e404_options['portfolio_layout'] == 'sidebar-right') : ?>
 		<div id="sidebar" class="one_third last sidebar-right">
-	<?php get_sidebar('civil war'); ?>
+	<?php get_sidebar('blog'); ?>
 		</div>
 	<?php endif; ?>
 		<br class="clear" />
