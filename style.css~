@@ -234,9 +234,6 @@ a.browse:hover,
 	background-position: -33px -99px;
 }
 
-.fancy_preview {background-position: 0 -225px;}
-.fancy_preview:hover {background-position: -33px -225px;}
-
 /* ---------------------------------------- */
 /* civil war style */
 
