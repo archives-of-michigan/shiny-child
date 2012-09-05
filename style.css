@@ -538,6 +538,9 @@ body.teach #wp-calendar #prev a {
 	background-image: url(images/hori_large.png);
 	width: 28px;
 	height: 28px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 	
 body.teach #wp-calendar #next a {
@@ -545,6 +548,9 @@ body.teach #wp-calendar #next a {
 	background-position: 0 -30px;
 	width: 28px;
 	height: 28px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 body.teach #wp-calendar #prev a:hover {
