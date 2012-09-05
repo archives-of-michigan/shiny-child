@@ -60,7 +60,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 	if ($cats) {
 		foreach ($cats as $cat) {
 			if ($cat == '593' ) { echo ' class="civilwar"'; }
-			elseif ($cat == '1081' ) { echo ' class="teach"'; }
+			elseif ($cat == '4' ) { echo ' class="teach"'; }
 		}
 	}
 }
