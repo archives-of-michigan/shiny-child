@@ -237,6 +237,12 @@ a.browse:hover,
 .fancy_preview {background-position: 0 -225px;}
 .fancy_preview:hover {background-position: -31px -225px;}
 
+a.arrowright span {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden:
+}
+
 /* ---------------------------------------- */
 /* civil war style */
 
