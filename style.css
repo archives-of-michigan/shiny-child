@@ -499,7 +499,7 @@ body.teach #wp-calendar caption a {
 body.teach #wp-calendar #prev, 
 body.teach #wp-calendar #next {
   background-color: #FFFFFF;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   vertical-align: top;
 }
