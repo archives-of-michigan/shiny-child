@@ -1,6 +1,6 @@
 <?php
 /**
- * Teach / Programs - category page
+ * Teach Category
  *
  */
 
@@ -9,6 +9,7 @@ get_header();?>
 	<div id="wrapper"<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?> class="sidebar-left-wrapper"<?php elseif($e404_options['blog_layout'] == 'sidebar-right') : ?> class="sidebar-right-wrapper"<?php endif; ?>>
 		<div id="teach-intro">
 			<div id="intro" class="text-intro">
+			<hr class="divider divider-bbottom">
 			</div>
 		</div>
 		<div id="wrapper_inner">
@@ -73,14 +74,13 @@ while ( have_posts() ) : the_post(); ?>
 				?>
 				<div class="post-header">
 					<div class="meta-date">
-					   	<span class="meta-month"><?php the_time('M'); ?></span>
-						<span class="meta-day"><?php the_time('d'); ?></span>
-						<span class="meta-year"><?php the_time('Y'); ?></span>
+					   	<span class="meta-month">For</span>
+						<span class="meta-day">##-##</span>
+						<span class="meta-year">Ages</span>
 					 </div>
 					 <div class="post-meta light-box">
 						<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						<div class="meta posted-meta">
-							<?php if($e404_options['blog_post_author']) { echo '<span class="blog-author">', the_author_link(), '</span> '; } ?>
 							<?php if($e404_options['blog_post_categories']) { echo '<span class="blog-categories">', the_category(', '), '</span> '; } ?>
 							<?php if(!is_attachment() && comments_open($post->ID)) : ?><span class="blog-comments"><a href="<?php comments_link(); ?>"><?php comments_number('0', '1', '%'); ?></a></span><?php endif; ?>
 						<?php if($e404_all_options['e404_blog_like_this'] == 'true') : $like_class = e404_liked($post->ID) ? ' fancy_likes_you_like' : ''; ?>
