@@ -298,6 +298,18 @@ a.arrowright span {
 	margin-top: 162px;
 }
 
+body.teach #header_wrapper {
+	background-color: #ae9fca;
+	background-image: url('images/bg-teach-header.png');
+	background-position: left bottom;
+	background-repeat: repeat;
+}
+
+body.teach .post-header {
+	padding: 20px 30px;
+	background: #ae9fca;
+}
+
 /* ---------------------------------------- */
 /* blog - posts */
 

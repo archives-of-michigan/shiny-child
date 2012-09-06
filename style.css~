@@ -235,7 +235,13 @@ a.browse:hover,
 }
 
 .fancy_preview {background-position: 0 -225px;}
-.fancy_preview:hover {background-position: -33px -225px;}
+.fancy_preview:hover {background-position: -31px -225px;}
+
+a.arrowright span {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden:
+}
 
 /* ---------------------------------------- */
 /* civil war style */
@@ -496,20 +502,20 @@ body.teach #wp-calendar caption a {
 	color: #666;
 }
 
-body.teach #wp-calendar #prev {
-  text-align:left;
+body.teach #wp-calendar #prev, 
+body.teach #wp-calendar #next {
   background-color: #FFFFFF;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   vertical-align: top;
 }
 
+body.teach #wp-calendar #prev {
+  text-align:left;
+}
+
 body.teach #wp-calendar #next {
   text-align:right;
-  background-color: #FFFFFF;
-  padding: 5px;
-  text-align: center;
-  vertical-align: top;
 }
 
 body.teach .ec3_eventday a {
@@ -534,15 +540,39 @@ body.teach #wp-calendar table.nav tr td a{
 	color: #757575;
 }
 
-body.teach #wp-calendar #prev a,              
+body.teach #wp-calendar #prev a {
+	background-image: url(images/hori_large.png);
+	width: 28px;
+	height: 28px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+	
 body.teach #wp-calendar #next a {
-	background: none repeat scroll 0 0 #fff;
-	text-decoration: underline;
+	background-image: url(images/hori_large.png);
+	background-position: 0 -30px;
+	width: 28px;
+	height: 28px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+body.teach #wp-calendar #prev a:hover {
+	background-position: -30px 0;
+}
+	
+body.teach #wp-calendar #next a:hover {
+	background-position: -30px -30px;
 }
 
 body.teach #wp-calendar table.nav tr td,
 body.teach #wp-calendar table.nav tr a {
 	background: none repeat scroll 0 0 #fff;
+	font-size: 15px;
+	line-height: 20px;
+	width: 75px;
 }
 
 body.teach #wp-calendar td {
