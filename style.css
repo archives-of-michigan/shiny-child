@@ -590,3 +590,13 @@ body.teach #wp-calendar table.nav tr a {
 body.teach #wp-calendar td {
 	vertical-align: middle;
 }
+
+body.teach table.ec3_schedule {
+	border: none !important;
+	float: none !important;
+}
+
+body.teach table.ec3_schedule td {
+	color: #89151F;
+	padding: 10px 0.5ex;
+}
