@@ -349,7 +349,7 @@ body.teach .post-header {
 
 .blog-length a {
 	padding-left: 23px;
-	background: url('images/post-meta.png') 0 1px no-repeat;
+	background: url('images/meta-icons.png') 0 1px no-repeat;
 }
 .blog-length a:hover {
 	background-position: 0 -29px;
@@ -358,7 +358,7 @@ body.teach .post-header {
 
 .blog-pdf a {
 	padding-left: 23px;
-	background: url('images/post-meta.png') 0 1px no-repeat;
+	background: url('images/meta-icons.png') 0 1px no-repeat;
 }
 .blog-pdf a:hover {
 	background-position: 0 -29px;
