@@ -86,8 +86,8 @@ while ( have_posts() ) : the_post(); ?>
 						<?php if($e404_all_options['e404_blog_like_this'] == 'true') : $like_class = e404_liked($post->ID) ? ' fancy_likes_you_like' : ''; ?>
 							<span class="blog-likes"><a href="#" id="like-<?php the_ID(); ?>" class="like_this<?php echo $like_class; ?>" title="<?php echo e404_likes_text(e404_like_this($post->ID), false); ?>"><?php echo e404_like_this($post->ID); ?></a></span>
 						<?php endif; ?>
-						<?php if(get_post_meta($post->ID, 'length', true)) : echo '<span class="blog-length">', get_post_meta($post->ID, 'length', true). '</span>'; ?><?php endif; ?>
-						<?php if(get_post_meta($post->ID, 'pdf', true)) : echo '<span class="blog-pdf">', get_post_meta($post->ID, 'length', true). '</span>'; ?><?php endif; ?>
+						<?php if(get_post_meta($post->ID, 'length', true)) : echo '<span class="blog-length">', get_post_meta($post->ID, 'length', true); '</span>'; ?><?php endif; ?>
+						<?php if(get_post_meta($post->ID, 'pdf', true)) : echo '<span class="blog-pdf">', '<a href="get_post_meta($post->ID, 'length', true);>pdf' '</a></span>'; ?><?php endif; ?>
 						<?php edit_post_link(__('Edit', 'shiny'), '<span class="edit-link">', '</span>'); ?>
 						</div>
 						<br class="clear" />
