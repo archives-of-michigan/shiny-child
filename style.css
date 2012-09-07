@@ -659,7 +659,7 @@ body.teach table.ec3_schedule td {
 }
 
 body.teach li.ec3_list_day {
-    background-image: url("images/calendar-red.png");
+    background-image: url("images/calendar_red.png");
     background-position: 0 15px;
     background-repeat: no-repeat;
     padding: 12px 0 10px 30px !important;
