@@ -358,6 +358,14 @@ body.teach .post-header {
 	color: #000;
 }
 
+.register {
+	background: url('images/button-register.jpg') 0 0 no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+	
+
 /* ---------------------------------------- */
 /* blog - posts */
 
