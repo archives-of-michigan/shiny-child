@@ -110,7 +110,7 @@ while ( have_posts() ) : the_post(); ?>
 			?>
 
 			<?php if(!is_single() && $e404_options['blog_read_more']) : ?>
-				<p class="more"><span><a href="<?php the_permalink(); ?>"><?php echo($e404_options['blog_read_more_text']); ?></a></span></p>
+				<p class="register"><span><a href="<?php get_post_meta($post->ID, 'registration', true); ?>"><?php echo 'Register' ?></a></span></p>
 			<?php endif; ?>
 			
 			<?php if(is_single() && $e404_options['blog_post_tags']) : ?><div class="meta tags-meta"><?php the_tags('', ' '); ?></div><?php endif; ?>
