@@ -1,6 +1,6 @@
 <?php
 /**
- * Teach / Events Category
+ * Teach / Michigan Mitten Category
  *
  */
 
@@ -75,7 +75,7 @@ while ( have_posts() ) : the_post(); ?>
 				<div class="post-header">
 					<div class="meta-date">
 					   	<span class="meta-month">For</span>
-						<span class="meta-day"><?php echo get_post_meta($post->ID, 'age', true); ?></span>
+						<span class="meta-day">##-##</span>
 						<span class="meta-year">Ages</span>
 					 </div>
 					 <div class="post-meta light-box">
@@ -85,10 +85,6 @@ while ( have_posts() ) : the_post(); ?>
 							<?php if(!is_attachment() && comments_open($post->ID)) : ?><span class="blog-comments"><a href="<?php comments_link(); ?>"><?php comments_number('0', '1', '%'); ?></a></span><?php endif; ?>
 						<?php if($e404_all_options['e404_blog_like_this'] == 'true') : $like_class = e404_liked($post->ID) ? ' fancy_likes_you_like' : ''; ?>
 							<span class="blog-likes"><a href="#" id="like-<?php the_ID(); ?>" class="like_this<?php echo $like_class; ?>" title="<?php echo e404_likes_text(e404_like_this($post->ID), false); ?>"><?php echo e404_like_this($post->ID); ?></a></span>
-						<?php endif; ?>
-						<?php if(get_post_meta($post->ID, 'length', true)) : echo '<span class="blog-length">', get_post_meta($post->ID, 'length', true), '</span>'; ?>
-						<?php endif; ?>
-						<?php if(get_post_meta($post->ID, 'pdf', true)) : echo '<span class="blog-pdf"><a href="', get_post_meta($post->ID, 'pdf', true), '">pdf</a></span>'; ?>
 						<?php endif; ?>
 							<?php edit_post_link(__('Edit', 'shiny'), '<span class="edit-link">', '</span>'); ?>
 						</div>

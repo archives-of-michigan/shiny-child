@@ -1,6 +1,6 @@
 <?php
 /**
- * Teach / Events - category page
+ * Teach / Events Category
  *
  */
 
@@ -81,7 +81,6 @@ while ( have_posts() ) : the_post(); ?>
 					 <div class="post-meta light-box">
 						<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						<div class="meta posted-meta">
-							<?php if($e404_options['blog_post_author']) { echo '<span class="blog-author">', the_author_link(), '</span> '; } ?>
 							<?php if($e404_options['blog_post_categories']) { echo '<span class="blog-categories">', the_category(', '), '</span> '; } ?>
 							<?php if(!is_attachment() && comments_open($post->ID)) : ?><span class="blog-comments"><a href="<?php comments_link(); ?>"><?php comments_number('0', '1', '%'); ?></a></span><?php endif; ?>
 						<?php if($e404_all_options['e404_blog_like_this'] == 'true') : $like_class = e404_liked($post->ID) ? ' fancy_likes_you_like' : ''; ?>
