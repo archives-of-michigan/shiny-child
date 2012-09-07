@@ -346,15 +346,15 @@ body.teach .post-header {
 .blog-length {
 	color: #ffffff;
 	padding-left: 23px;
-	background: url('images/post-meta.png') 0 1px no-repeat;
+	background: url('images/post-meta.png') 0 -142px no-repeat;
 }
 
 .blog-pdf a {
 	padding-left: 23px;
-	background: url('images/post-meta.png') 0 1px no-repeat;
+	background: url('images/post-meta.png') 0 -190px no-repeat;
 }
 .blog-pdf a:hover {
-	background-position: 0 -29px;
+	background-position: 0 -213px;
 	color: #000;
 }
 
