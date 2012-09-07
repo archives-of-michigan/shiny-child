@@ -310,6 +310,39 @@ body.teach .post-header {
 	background: #ae9fca;
 }
 
+.blog-author,
+.blog-categories,
+.blog-comments,
+.blog-likes,
+.blog-length,
+.edit-link {
+	margin-right: 10px;
+	display: inline-block;
+}
+.posted-meta a {
+	color: #999 !important;
+	text-decoration: none;
+}
+.blog-comments a {
+	padding-left: 23px;
+	background: url('images/post-meta.png') 0 1px no-repeat;
+}
+.blog-comments a:hover {
+	background-position: 0 -29px;
+	color: #000;
+}
+.blog-likes a {
+	padding-left: 20px;
+	background: url('images/post-meta.png') 0 -59px no-repeat;
+}
+.blog-likes a:hover {
+	background-position: 0 -89px;
+}
+.blog-likes a.fancy_likes_you_like {
+	background-position: 0 -119px;
+	color: #f43a27;
+}
+
 /* ---------------------------------------- */
 /* blog - posts */
 
