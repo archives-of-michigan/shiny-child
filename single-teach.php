@@ -88,7 +88,7 @@ while ( have_posts() ) : the_post(); ?>
 						<?php endif; ?>
 						<?php if(get_post_meta($post->ID, 'length', true)) : echo '<span class="blog-length">', get_post_meta($post->ID, 'length', true), '</span>'; ?>
 						<?php endif; ?>
-						<?php if(get_post_meta($post->ID, 'pdf', true)) : echo '<span class="blog-pdf">', '<a href="'get_post_meta($post->ID, 'length', true)'">pdf', '</a></span>'; ?>
+						<?php if(get_post_meta($post->ID, 'pdf', true)) : echo '<span class="blog-pdf"><a href="', get_post_meta($post->ID, 'length', true), '">pdf</a></span>'; ?>
 						<?php endif; ?>
 						<?php edit_post_link(__('Edit', 'shiny'), '<span class="edit-link">', '</span>'); ?>
 						</div>
