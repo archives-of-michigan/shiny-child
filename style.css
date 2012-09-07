@@ -343,6 +343,24 @@ body.teach .post-header {
 	color: #f43a27;
 }
 
+.blog-length a {
+	padding-left: 23px;
+	background: url('images/post-meta.png') 0 1px no-repeat;
+}
+.blog-length a:hover {
+	background-position: 0 -29px;
+	color: #000;
+}
+
+.blog-pdf a {
+	padding-left: 23px;
+	background: url('images/post-meta.png') 0 1px no-repeat;
+}
+.blog-pdf a:hover {
+	background-position: 0 -29px;
+	color: #000;
+}
+
 /* ---------------------------------------- */
 /* blog - posts */
 
