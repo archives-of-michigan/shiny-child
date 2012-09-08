@@ -1,19 +1,19 @@
 <?php
-/*
-  Template Name Posts: Teach
+/**
+ * Teach / Michigan Mitten Category
+ *
  */
-?>
-<?get_header(); ?>
+
+get_header();?>
 	
 	<div id="wrapper"<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?> class="sidebar-left-wrapper"<?php elseif($e404_options['blog_layout'] == 'sidebar-right') : ?> class="sidebar-right-wrapper"<?php endif; ?>>
-		<div id="wrapper_inner">	
-		
-		<div id="wrapper">
-			<div id="teach-intro"><a href="http://seekingmichigan.org/teach/"></a>
-				<div id="intro" class="text-intro"></div>
+		<div id="teach-intro">
+			<div id="intro" class="text-intro">
+			<hr class="divider divider-bbottom">
 			</div>
 		</div>
-		
+		<div id="wrapper_inner">
+	
 	<?php if($e404_options['blog_intro_type'] != 'none' || $e404_options['breadcrumbs']) echo '<div id="head_intro">'; ?>
 		<?php include(OF_FILEPATH.'/blog-intro-box.php'); ?>
 		<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
@@ -90,7 +90,7 @@ while ( have_posts() ) : the_post(); ?>
 						<?php endif; ?>
 						<?php if(get_post_meta($post->ID, 'pdf', true)) : echo '<span class="blog-pdf"><a href="', get_post_meta($post->ID, 'pdf', true), '">pdf</a></span>'; ?>
 						<?php endif; ?>
-						<?php edit_post_link(__('Edit', 'shiny'), '<span class="edit-link">', '</span>'); ?>
+							<?php edit_post_link(__('Edit', 'shiny'), '<span class="edit-link">', '</span>'); ?>
 						</div>
 						<br class="clear" />
 					</div>
@@ -113,9 +113,7 @@ while ( have_posts() ) : the_post(); ?>
 				<p class="more"><span><a href="<?php the_permalink(); ?>"><?php echo($e404_options['blog_read_more_text']); ?></a></span></p>
 			<?php endif; ?>
 			
-			<?php if(is_single() && $e404_options['blog_post_tags']) : ?>
-				<p class="register"><span><a href="<?php get_post_meta($post->ID, 'registration', true); ?>"><?php echo 'Register' ?></a></span></p>
-				<div class="meta tags-meta"><?php the_tags('', ' '); ?></div><?php endif; ?>
+			<?php if(is_single() && $e404_options['blog_post_tags']) : ?><div class="meta tags-meta"><?php the_tags('', ' '); ?></div><?php endif; ?>
 			</div>
 			
 				</div>
