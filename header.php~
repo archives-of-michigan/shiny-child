@@ -59,8 +59,8 @@ if(substr(e404_get_current_template(), 0, 9) == 'home-page') {
 $cats = wp_get_post_categories($posts[0]->ID);
 	if ($cats) {
 		foreach ($cats as $cat) {
-			if ($cat == '2101' ) { echo ' class="civilwar"'; }
-			elseif ($cat == '1081' ) { echo ' class="teach"'; }
+			if ($cat == '593' ) { echo ' class="civilwar"'; }
+			elseif ($cat == '4' ) { echo ' class="teach"'; }
 		}
 	}
 }
