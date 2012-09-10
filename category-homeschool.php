@@ -110,11 +110,11 @@ while ( have_posts() ) : the_post(); ?>
 			?>
 
 			<?php if(!is_single() && $e404_options['blog_read_more']) : ?>
-				<?php if(get_post_meta($post->ID, 'register', true)) : echo '<p class="register"><span><a href="', get_post_meta($post->ID, 'registration', true), "'"?><?php echo 'Register' ?></a></span></p><?php endif; ?>
+				<?php if(get_post_meta($post->ID, 'registration', true)) : echo '<p class="register"><span><a href="', get_post_meta($post->ID, 'registration', true), "'"?><?php echo 'Register' ?></a></span></p><?php endif; ?>
 			<?php endif; ?>
 			
 			<?php if(is_single() && $e404_options['blog_post_tags']) : ?>
-				<?php if(get_post_meta($post->ID, 'pdf', true)) : echo '<p class="register"><span><a href="', get_post_meta($post->ID, 'registration', true), "'"?><?php echo 'Register' ?></a></span></p><?php endif; ?>
+				<?php if(get_post_meta($post->ID, 'registration', true)) : echo '<p class="register"><span><a href="', get_post_meta($post->ID, 'registration', true), "'"?><?php echo 'Register' ?></a></span></p><?php endif; ?>
 				<div class="meta tags-meta"><?php the_tags('', ' '); ?></div><?php endif; ?>
 			</div>
 			
