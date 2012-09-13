@@ -280,6 +280,9 @@ a.arrowright span {
 	background: #972831;
 }
 
+body.civilwar #featured_inner {
+	box-shadow: none !important;
+}
 
 /* ---------------------------------------- */
 /* teach intro */

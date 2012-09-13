@@ -310,6 +310,63 @@ body.teach .post-header {
 	background: #ae9fca;
 }
 
+.blog-author,
+.blog-categories,
+.blog-comments,
+.blog-likes,
+.blog-length,
+.edit-link {
+	margin-right: 10px;
+	display: inline-block;
+}
+.posted-meta a {
+	color: #999 !important;
+	text-decoration: none;
+}
+.blog-comments a {
+	padding-left: 23px;
+	background: url('images/post-meta.png') 0 1px no-repeat;
+}
+.blog-comments a:hover {
+	background-position: 0 -29px;
+	color: #000;
+}
+.blog-likes a {
+	padding-left: 20px;
+	background: url('images/post-meta.png') 0 -59px no-repeat;
+}
+.blog-likes a:hover {
+	background-position: 0 -89px;
+}
+.blog-likes a.fancy_likes_you_like {
+	background-position: 0 -119px;
+	color: #f43a27;
+}
+
+.blog-length {
+	color: #ffffff;
+	padding-left: 23px;
+	background: url('images/post-meta.png') 0 -142px no-repeat;
+}
+
+.blog-pdf a {
+	padding-left: 23px;
+	background: url('images/post-meta.png') 0 -190px no-repeat;
+}
+.blog-pdf a:hover {
+	background-position: 0 -213px;
+	color: #000;
+}
+
+.register {
+	background: url('images/button-register.jpg') 0 0 no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 40px;
+}
+	
+
 /* ---------------------------------------- */
 /* blog - posts */
 
@@ -599,4 +656,11 @@ body.teach table.ec3_schedule {
 body.teach table.ec3_schedule td {
 	color: #89151F;
 	padding: 10px 0.5ex;
+}
+
+body.teach li.ec3_list_day {
+    background-image: url("images/calendar_red.png");
+    background-position: 5px 15px;
+    background-repeat: no-repeat;
+    padding: 12px 0 10px 30px !important;
 }
