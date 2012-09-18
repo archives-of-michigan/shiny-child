@@ -29,7 +29,7 @@ get_header(); ?>
 		foreach ( $bookmarks as $bm ) {
 		    echo '<li class="bookmark"><h4><a href="'.$bm->link_url.'" target="'.$bm->link_target.'" rel="'.$bm->link_rel.'">'.$bm->link_name.'</a></h4>';
 		    echo '<p class="description">'.$bm->link_notes.'</p>';
-		    echo '<hr class="divider-dotted">'
+		    echo '<hr class="divider-dotted">';
 		}
 	?>
 <?php endwhile; ?>
