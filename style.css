@@ -284,7 +284,7 @@ body.civilwar #featured_inner {
 	box-shadow: none !important;
 }
 
-body.civilwar li.bookmark{
+body.civilwar .bookmark{
 	background-image: url('images/bullets/link.png');
 	background-position: 0 15px;
         background-repeat: no-repeat;
