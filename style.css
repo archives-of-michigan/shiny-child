@@ -290,6 +290,8 @@ body.civilwar .bookmark{
         background-repeat: no-repeat;
 }
 
+body.civilwar li.bookmark{list-style: none outside none;}
+
 body.civilwar p.description {padding-bottom: 10px}
 
 
