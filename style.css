@@ -292,6 +292,8 @@ body.civilwar .bookmark{
 
 body.civilwar li.bookmark{list-style: none outside none;}
 
+body.civilwar .bookmark h4 {padding-left: 20px}
+
 body.civilwar p.description {padding-bottom: 10px}
 
 
