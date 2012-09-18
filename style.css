@@ -286,7 +286,7 @@ body.civilwar #featured_inner {
 
 body.civilwar .bookmark{
 	background-image: url('images/bullets/link.png');
-	background-position: 0 15px;
+	background-position: 0 5px;
         background-repeat: no-repeat;
 }
 
@@ -294,7 +294,7 @@ body.civilwar li.bookmark{list-style: none outside none;}
 
 body.civilwar .bookmark h4 {padding-left: 20px}
 
-body.civilwar p.description {padding-bottom: 10px}
+body.civilwar p.description {padding-bottom: 40px}
 
 
 /* ---------------------------------------- */
