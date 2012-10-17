@@ -268,14 +268,14 @@ a.arrowright span {
 	margin-top: 170px;
 }
 
-.civilwar #header_wrapper {
+body.civilwar #header_wrapper {
 	background-color: #ae9c6e;
 	background-image: url('images/bg-header-cw.png');
 	background-position: left bottom;
 	background-repeat: repeat;
 }
 
-.civilwar .post-header {
+body.civilwar .post-header {
 	padding: 20px 30px;
 	background: #972831;
 }
@@ -283,6 +283,19 @@ a.arrowright span {
 body.civilwar #featured_inner {
 	box-shadow: none !important;
 }
+
+body.civilwar .bookmark{
+	background-image: url('images/bullets/link.png');
+	background-position: 0 5px;
+        background-repeat: no-repeat;
+}
+
+body.civilwar li.bookmark{list-style: none outside none;}
+
+body.civilwar .bookmark h4 {padding-left: 20px}
+
+body.civilwar p.description {padding-bottom: 40px}
+
 
 /* ---------------------------------------- */
 /* teach intro */

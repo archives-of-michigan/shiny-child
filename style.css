@@ -680,3 +680,104 @@ body.teach li.ec3_list_day {
     background-repeat: no-repeat;
     padding: 12px 0 10px 30px !important;
 }
+
+#main-content ul.maploc {
+	margin-top: 0;
+}
+
+/* this is the div for the circles over the map */
+div.michigan-map {
+	width: 236px;
+	height: 234px;
+	background-color: transparent;
+	/*background: url(../images/michiganmap.jpg) no-repeat 25px 55px;*/
+	margin: 55px 0 -10px 30px;
+	position: relative;
+}
+div.michigan-map ul.maploc li {
+	
+}
+div.michigan-map ul.maploc li a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #006300;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	text-indent: -5000px;
+	background-color: #999;
+	background-color: rgba(153,153,153,0.60);
+}
+div.michigan-map ul.maploc li a:hover {
+	border: 2px solid #ffda93;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0 0 5px #000;
+}
+div.michigan-map ul.maploc li  strong {
+	position: absolute;
+	bottom: 20px;
+	left: -5000px;
+	width: 236px;
+	display: block;
+	padding: 5px;
+	text-align: center;
+	border-top: 1px dotted #999;
+	border-bottom: 1px dotted #999;
+	padding-top: 5px;
+	background: rgba(250,250,250,0.8);
+	color: #666666;
+}
+div.michigan-map ul.maploc li:hover strong {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+}
+div.michigan-map ul.maploc li.maploc1 a {
+	left: 45px;
+	top: -15px;
+}
+div.michigan-map ul.maploc li.maploc2 a {
+	left: 70px;
+	top: 20px;
+}
+div.michigan-map ul.maploc li.maploc3 a {
+	left: 130px;
+	top: 35px;
+}
+div.michigan-map ul.maploc li.maploc4 a {
+	left: 80px;
+	top: 40px;
+}
+div.michigan-map ul.maploc li.maploc5 a {
+	left: 168px;
+	top: 70px;
+}
+div.michigan-map ul.maploc li.maploc6 a {
+	left: 140px;
+	top: 90px;
+}
+div.michigan-map ul.maploc li.maploc7 a {
+	left: 165px;
+	top: 95px;
+}
+div.michigan-map ul.maploc li.maploc8 a {
+	left: 180px;
+	top: 110px;
+}
+div.michigan-map ul.maploc li.maploc9 a {
+	left: 140px;
+	top: 150px;
+}
+div.michigan-map ul.maploc li.maploc10 a {
+	left: 160px;
+	top: 170px;
+}
+div.michigan-map ul.maploc li.maploc11 a {
+	left: 130px;
+	top: 175px;
+}
