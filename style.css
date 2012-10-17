@@ -696,6 +696,9 @@ div.michigan-map {
 	margin: 55px 0 -10px 30px;
 	position: relative;
 }
+
+div.michigan-map ul li {list-style: none !important;}
+
 div.michigan-map ul.maploc li {
 	
 }
