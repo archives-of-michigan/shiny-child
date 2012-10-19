@@ -681,19 +681,23 @@ body.teach li.ec3_list_day {
     padding: 12px 0 10px 30px !important;
 }
 
+
+
+/* this is the div for the circles over the map */
+
 #main-content ul.maploc {
 	margin-top: 0;
 }
-
-/* this is the div for the circles over the map */
 div.michigan-map {
 	width: 236px;
-	height: 234px;
+	height: 280px;
 	background-color: transparent;
-	/*background: url(../images/michiganmap.jpg) no-repeat 25px 55px;*/
-	margin: 55px 0 -10px 30px;
-	position: relative;
+	background: url("images/michiganmap.jpg") no-repeat 0px 0px;
+	margin: 40px 0 0px 0px;
 }
+
+div.michigan-map ul li {list-style: none !important;}
+
 div.michigan-map ul.maploc li {
 	
 }
