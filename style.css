@@ -693,7 +693,7 @@ div.michigan-map {
 	height: 280px;
 	background-color: transparent;
 	background: url("images/michiganmap.jpg") no-repeat 0px 0px;
-	margin: 40px 0 0px 0px;
+	margin: 0px;
 }
 
 div.michigan-map ul li {list-style: none !important;}
