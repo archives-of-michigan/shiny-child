@@ -690,7 +690,7 @@ body.teach li.ec3_list_day {
 }
 div.michigan-map {
 	width: 255px;
-	height: 280px;
+	height: 300px;
 	background-color: transparent;
 	background: url("images/michiganmap.jpg") no-repeat 0px 0px;
 	margin: 0px;
@@ -735,7 +735,7 @@ div.michigan-map ul.maploc li  strong {
 }
 div.michigan-map ul.maploc li:hover strong {
 	position: absolute;
-	bottom: 10px;
+	bottom: -10px;
 	left: 0;
 }
 div.michigan-map ul.maploc li.maploc1 a {
