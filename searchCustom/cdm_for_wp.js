@@ -22,6 +22,12 @@ jQuery(document).ready(function() {
 		window.location= "http://cdm16317.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
 	});
 	
+	jQuery('#search_content_box').keypress(function (e) {
+	  if (e.which == 13) {
+	    window.location= "http://cdm16317.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
+	  }
+	});
+	
 	/*jQuery('#advanced_max_collections_link').click(function(){
 		get_collections_js();
 	});*/
