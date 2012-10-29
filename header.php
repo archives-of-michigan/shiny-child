@@ -84,7 +84,9 @@ $cats = wp_get_post_categories($posts[0]->ID);
 				<div id="social_icons" class="leftside">
 					<?php e404_show_header_social_icons(); ?>
 				</div>
-			
+				<div class="search_content_container_advanced">
+					<div id="search_content_adv_link" tabindex="6">Advanced Search</div>
+				</div>
 				<div class="rightside">
 					<?php if(!$e404_options['remove_search_form'] && !$isHomer) : ?>
 					
@@ -102,13 +104,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 							</div>
 						</div>
 					</div>
-					<div class="search_content_container_advanced">
-						<div id="search_content_adv_link" class="action_link_10" tabindex="6">Advanced Search</div>
-					</div>
 					
-					<div id="search_content_close_icon" class="search_content_container_advanced cdm_hide spaceMar5L">
-						<span class="icon_16 ui-icon-circle-close"></span>
-					</div>
 					
 					<?php endif; ?>
 				</div>

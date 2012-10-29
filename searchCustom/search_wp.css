@@ -51,6 +51,29 @@
     font-size: 11px;
 }
 
+.search_content_container_advanced{
+	float:right;
+	background: none repeat scroll 0 0 #A3B92F;
+    border: medium none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: "lucida grande",arial;
+    font-size: 13px;
+    font-weight: normal;
+    height: 24px;
+    left: 0;
+    margin: 0;
+	margin-left:5px;
+	margin-top: 4px;
+    padding: 0 10px 0 10px;
+    position: relative;
+    text-indent: 0;
+    text-transform: uppercase;
+    top: 0;
+	cursor: pointer;
+	text-align: center;
+}
+
 #search_content_text {
     margin: 20px 10px 0 0;
 }
@@ -92,7 +115,7 @@
 }
 
 #search_content_adv_link {
-    letter-spacing: -0.5px;
+    /*letter-spacing: -0.5px;
     margin: 0;
 	margin-top: 7px;
 	color: #336699;
@@ -102,7 +125,9 @@
 	    font-weight: normal;
 	    text-decoration: underline;
 	cursor:pointer;
-	float:right;
+	float:right;*/
+	margin-top: 3px;
+	text-align: center;
 	
 }
 
