@@ -782,3 +782,6 @@ div.michigan-map ul.maploc li.maploc11 a {
 	left: 150px;
 	top: 245px;
 }
+#fieldSiteInfoDisplay{
+	float:right;
+}
