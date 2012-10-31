@@ -6,13 +6,7 @@
 
 get_header(); ?>
 
-<script>
-$(document).ready(function(){
-	$('.maploc1').click(function () {
-		$('#details').load('http://localhost:8888/wordpress/fort-wilkins/');
-	});
-    });
-</script>
+
 
 	<div id="wrapper">
 	
