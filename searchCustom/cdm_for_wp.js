@@ -128,7 +128,7 @@ jQuery(document).ready(function() {
 			jQuery('#page-content').removeClass('two_third');	
 			jQuery('#page-content').css('width','500');
 			var theight = jQuery('#page-content').height() * 1 + 100;
-			jQuery('#tours').css('height','500');
+			jQuery('#tours').css('height',theight);
 		});
 		 
 	})
