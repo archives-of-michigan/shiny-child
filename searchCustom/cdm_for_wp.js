@@ -121,11 +121,10 @@ jQuery(document).ready(function() {
 	}
 	
 	jQuery('.fieldsitemap').click(function(e){
-		alert(jQuery(this).attr('href'));
-		var link = jQuery(this).attr('href');  
+		e.preventDefault(); 
+		var link = jQuery(this).find("a[href]").attr('href');
 		jQuery('#fieldSiteInfoDisplay').html('Loading...');  
-		jQuery('#fieldSiteInfoDisplay').load(link+' #page-content');
-		e.preventDefault();  
+		jQuery('#fieldSiteInfoDisplay').load(link+' #page-content');		 
 	})
 	
 });
