@@ -124,7 +124,8 @@ jQuery(document).ready(function() {
 		e.preventDefault(); 
 		var link = jQuery(this).find("a[href]").attr('href');
 		jQuery('#fieldSiteInfoDisplay').html('Loading...');  
-		jQuery('#fieldSiteInfoDisplay').load(link+' #page-content');		 
+		jQuery('#fieldSiteInfoDisplay').load(link+' #page-content');
+		jQuery('#page-content').removeClass('two_third');		 
 	})
 	
 });
