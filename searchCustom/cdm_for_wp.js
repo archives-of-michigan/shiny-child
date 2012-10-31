@@ -120,6 +120,13 @@ jQuery(document).ready(function() {
 		return advMore;
 	}
 	
+	jQuery('.fieldsitemap').click(function(e){
+		e.preventDefault();  
+		var link = jQuery(this).attr('href');  
+		jQuery('#fieldSiteInfoDisplay').html('Loading...');  
+		jQuery('#fieldSiteInfoDisplay').load(link+' #page-content');
+	})
+	
 });
 
 
