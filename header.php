@@ -114,6 +114,8 @@ $cats = wp_get_post_categories($posts[0]->ID);
 		</div><!--- end header_bar --->		
 			
 	</div><!--- end header_bar_wrapper --->
+	
+</div>
 		
 	<div id="adv_search">
 		<div id="adv_search_content" class="leftside">
@@ -249,7 +251,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 
 	</div>
 
-</div>
+
 		
 
 <span class="clear"></span>	
