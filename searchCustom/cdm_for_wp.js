@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
 	jQuery("#search_content_adv_link").click(function () {	
 	
 		if (jQuery(this).text() == 'Advanced Search'){
-			jQuery('body').css('backgroundPosition', '0 575px');
+			jQuery('body').css('backgroundPosition', '0 740px');
 			//jQuery('#header_wrapper').height(180);
 			jQuery(this).text('Close Advanced');
 		
