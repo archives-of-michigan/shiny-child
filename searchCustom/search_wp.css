@@ -165,6 +165,7 @@
 	float: left;
 	margin-left: 100px;
 	font-size: 11px;
+	height: 530px;
 }
 
 #adv_search_query_builder_list li input.adv_search_str {
