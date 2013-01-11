@@ -130,7 +130,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 					<li id="rid0" class="adv_search_row ">
 						<ul class="adv_search_ul_row">
 							<li class="leftside">
-								<select id="rid0_mode" class="adv_search_type_dd" onblur="this.style.position='';this.style.width=''" onchange="this.style.position='';this.style.width=''" onmousedown="if($.browser.msie){this.style.position='relative';this.style.width='auto'}">
+								<select id="rid0_mode" class="adv_search_type_dd" >
 									<option selected="selected" value="all">All of the words</option>
 									<option value="any">Any of the words</option>
 									<option value="exact">The exact phrase</option>
@@ -142,7 +142,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 							</li>
 							<li class="leftside spaceMar5L spacePad5">in</li>
 							<li class="leftside spaceMar5L">
-								<select id="rid0_field" class="adv_search_domain_dd" onblur="this.style.position='';this.style.width=''" onchange="this.style.position='';this.style.width=''" onmousedown="if($.browser.msie){this.style.position='relative';this.style.width='auto'}">
+								<select id="rid0_field" class="adv_search_domain_dd">
 								<option selected="selected" value="all">All fields</option>
 								<option value="title">Title</option>
 								<option value="subjec">Subject</option>
@@ -165,7 +165,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 				<li id="rid1" class="adv_search_row adv_search_row_bgcolor">
 					<ul class="adv_search_ul_row">
 					<li class="leftside">
-					<select id="rid1_mode" class="adv_search_type_dd" onblur="this.style.position='';this.style.width=''" onchange="this.style.position='';this.style.width=''" onmousedown="if($.browser.msie){this.style.position='relative';this.style.width='auto'}">
+					<select id="rid1_mode" class="adv_search_type_dd">
 						<option selected="selected" value="all">All of the words</option>
 						<option value="any">Any of the words</option>
 						<option value="exact">The exact phrase</option>
@@ -177,7 +177,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 				</li>
 				<li class="leftside spaceMar5L spacePad5">in</li>
 				<li class="leftside spaceMar5L">
-					<select id="rid1_field" class="adv_search_domain_dd" onblur="this.style.position='';this.style.width=''" onchange="this.style.position='';this.style.width=''" onmousedown="if($.browser.msie){this.style.position='relative';this.style.width='auto'}">
+					<select id="rid1_field" class="adv_search_domain_dd">
 						<option selected="selected" value="all">All fields</option>
 						<option value="title">Title</option>
 						<option value="subjec">Subject</option>
