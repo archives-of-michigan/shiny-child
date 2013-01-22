@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Single page for JAVA Load
+ * Template name: Single page for Load
  *
  */
 
