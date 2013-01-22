@@ -124,11 +124,8 @@ jQuery(document).ready(function() {
 		e.preventDefault(); 
 		var link = jQuery(this).find("a[href]").attr('href');
 		jQuery('#fieldSiteInfoDisplay').html('Loading...');  
-		jQuery('#fieldSiteInfoDisplay').load(link+' #page-content', function() {
-			jQuery('#page-content').removeClass('two_third');	
-			jQuery('#page-content').css('width','500');
-			var theight = jQuery('#page-content').height() * 1 + 100;
-			jQuery('#tours').css('height',theight);
+		jQuery('#fieldSiteInfoDisplay').load(link+' #page-content', function() {	
+			jQuery('#page-content').css('width','610');
 		});
 		 
 	})
