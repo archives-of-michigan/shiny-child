@@ -126,6 +126,7 @@ jQuery(document).ready(function() {
 		jQuery('#fieldSiteInfoDisplay').html('Loading...');  
 		jQuery('#fieldSiteInfoDisplay').load(link+' #page-content', function() {
 			jQuery('#page-content').css('width','610');
+			var theight = jQuery('#page-content').height() * 1 + 100;
 		});
 		 
 	})
