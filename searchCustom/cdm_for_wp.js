@@ -131,6 +131,17 @@ jQuery(document).ready(function() {
 		 
 	})
 	
+	jQuery('.countyclerk').click(function(e){
+		e.preventDefault(); 
+		var link = jQuery(this).find("a[href]").attr('href');
+		jQuery('#countyclerkInfoDisplay').html('Loading...');  
+		jQuery('#countyclerkInfoDisplay').load(link+' #page-content', function() {
+			jQuery('#page-content').css('width','410');
+			var theight = jQuery('#page-content').height() * 1 + 100;
+		});
+		 
+	})
+	
 });
 
 
