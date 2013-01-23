@@ -110,7 +110,7 @@ form {
 
 #sidebar .widgets {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4cffffff', endColorstr='#4cffffff');
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000');
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 4px 4px 4px 4px;
     padding: 20px 20px 10px;
