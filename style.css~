@@ -693,7 +693,7 @@ div.michigan-map {
 	height: 300px;
 	background-color: transparent;
 	background: url("images/michiganmap.jpg") no-repeat 0px 0px;
-	margin: 0px;
+	margin-left: 300px;
 }
 
 div.michigan-map ul li {list-style: none !important;}
@@ -785,6 +785,14 @@ div.michigan-map ul.maploc li.maploc11 a {
 #fieldSiteInfoDisplay{
 	float:left;
 	margin-top: 40px;
+	border-radius: 4px 4px 4px 4px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	padding: 20px;
+}
+
+#countyclerkInfoDisplay{
+	float:left;
 	border-radius: 4px 4px 4px 4px;
 	background: none repeat scroll 0 0 #FFFFFF;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
