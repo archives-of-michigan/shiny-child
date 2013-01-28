@@ -109,7 +109,7 @@
     text-transform: uppercase;
     top: 0;
     vertical-align: middle;
-    width: 40px;
+    width: 35px;
 	cursor: pointer;
 	text-align: center;
 }
