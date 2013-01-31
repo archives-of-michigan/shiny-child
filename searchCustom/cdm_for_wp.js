@@ -124,7 +124,7 @@ jQuery(document).ready(function() {
 		e.preventDefault(); 
 		var link = jQuery(this).find("a[href]").attr('href');
 		jQuery('#fieldSiteInfoDisplay').html('Loading...');  
-		jQuery('#fieldSiteInfoDisplay').load(link+' #page-content?' + new Date().getTime(), function() {
+		jQuery('#fieldSiteInfoDisplay').load(link + '?' + new Date().getTime() + ' #page-content', function() {
 			jQuery('#page-content').css('width','610');
 			var theight = jQuery('#page-content').height() * 1 + 100;
 		});
