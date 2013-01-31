@@ -128,7 +128,9 @@ jQuery(document).ready(function() {
 			console.log("get success");
 			var specificContent = jQuery(data).find('#page-content').html();
 			console.log(specificContent);
-			jQuery('#fieldSiteInfoDisplay').html(specificContent);			
+			//jQuery('#fieldSiteInfoDisplay').html(specificContent);		
+			jQuery('#fieldSiteInfoDisplay').empty();
+			jQuery('#fieldSiteInfoDisplay').append(specificContent);	
 		});		
 		/* .load doesn't work well with IE8
 		jQuery('#fieldSiteInfoDisplay').load(link + '?' + new Date().getTime() + ' #page-content', function() {
