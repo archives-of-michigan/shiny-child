@@ -128,7 +128,7 @@ jQuery(document).ready(function() {
 			console.log("get success1");
 			//var specificContent = jQuery("<div>" + data + "</div>").find('#page-content').html();
 			//var specificContent = jQuery(data).find('#page-content').html();
-			console.log(specificContent);
+			//console.log(specificContent);
 			//jQuery('#fieldSiteInfoDisplay').html(specificContent);		
 			jQuery('#fieldSiteInfoDisplay').empty();
 			jQuery('#fieldSiteInfoDisplay').append(jQuery("<div>" + data + "</div>").find('#page-content').html());	
