@@ -125,7 +125,7 @@ jQuery(document).ready(function() {
 		var link = jQuery(this).find("a[href]").attr('href');
 		jQuery('#fieldSiteInfoDisplay').html('Loading...');  
 		jQuery.get(link, function(data) {
-			var specificContent = $(data).find('#page-content')
+			var specificContent = jQuery(data).find('#page-content')
 			jQuery('#fieldSiteInfoDisplay').html(specificContent);			
 		});		
 		/* .load doesn't work well with IE8
