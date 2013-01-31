@@ -131,7 +131,7 @@ jQuery(document).ready(function() {
 			console.log(specificContent);
 			//jQuery('#fieldSiteInfoDisplay').html(specificContent);		
 			jQuery('#fieldSiteInfoDisplay').empty();
-			jQuery('#fieldSiteInfoDisplay').append(jQuery("<div>" + data + "</div>").find('#page-content').html();	
+			jQuery('#fieldSiteInfoDisplay').append(jQuery("<div>" + data + "</div>").find('#page-content').html());	
 		});		
 		/* .load doesn't work well with IE8
 		jQuery('#fieldSiteInfoDisplay').load(link + '?' + new Date().getTime() + ' #page-content', function() {
