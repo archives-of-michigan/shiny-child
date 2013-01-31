@@ -127,7 +127,7 @@ jQuery(document).ready(function() {
 		jQuery.get(link, function(data) {
 			console.log("get success");
 			var specificContent = jQuery(data).find('#page-content').html();
-			console.log("content success");
+			console.log(specificContent);
 			jQuery('#fieldSiteInfoDisplay').html(specificContent);			
 		});		
 		/* .load doesn't work well with IE8
