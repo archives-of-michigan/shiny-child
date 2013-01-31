@@ -121,23 +121,16 @@ jQuery(document).ready(function() {
 	}
 	
 	jQuery('.fieldsitemap').click(function(e){
-		e.preventDefault(); 
-		var link = jQuery(this).find("a[href]").attr('href');
-		jQuery('#fieldSiteInfoDisplay').html('Loading...');  
-		jQuery.get(link, function(data) {
-			console.log("get success1");
-			//var specificContent = jQuery("<div>" + data + "</div>").find('#page-content').html();
-			//var specificContent = jQuery(data).find('#page-content').html();
-			//console.log(specificContent);
-			//jQuery('#fieldSiteInfoDisplay').html(specificContent);		
-			jQuery('#fieldSiteInfoDisplay').empty();
-			jQuery('#fieldSiteInfoDisplay').append(jQuery("<div>" + data + "</div>").find('#page-content').html());	
-		});		
-		/* .load doesn't work well with IE8
-		jQuery('#fieldSiteInfoDisplay').load(link + '?' + new Date().getTime() + ' #page-content', function() {
-			jQuery('#page-content').css('width','610');
-			var theight = jQuery('#page-content').height() * 1 + 100;
-		});*/
+		if (jQuery.support.leadingWhitespace) {
+		    //IE7 and 8 stuff
+			e.preventDefault(); 
+			var link = jQuery(this).find("a[href]").attr('href');
+			jQuery('#fieldSiteInfoDisplay').html('Loading...');  
+			jQuery('#fieldSiteInfoDisplay').load(link + '?' + new Date().getTime() + ' #page-content', function() {
+				jQuery('#page-content').css('width','610');
+				var theight = jQuery('#page-content').height() * 1 + 100;
+			});
+		}	
 		 
 	})
 	
