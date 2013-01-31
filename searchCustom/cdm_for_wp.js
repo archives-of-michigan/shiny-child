@@ -125,8 +125,9 @@ jQuery(document).ready(function() {
 		var link = jQuery(this).find("a[href]").attr('href');
 		jQuery('#fieldSiteInfoDisplay').html('Loading...');  
 		jQuery.get(link, function(data) {
-			console.log("get success");
-			var specificContent = jQuery(data).find('#page-content').html();
+			console.log("get success1");
+			var specificContent = jQuery("<div>" + data + "</div>").find('#page-content').html();
+			//var specificContent = jQuery(data).find('#page-content').html();
 			console.log(specificContent);
 			//jQuery('#fieldSiteInfoDisplay').html(specificContent);		
 			jQuery('#fieldSiteInfoDisplay').empty();
