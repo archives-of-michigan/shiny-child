@@ -135,12 +135,15 @@ jQuery(document).ready(function() {
 	})
 	
 	jQuery('.countyclerk').click(function(e){
-		e.preventDefault(); 
-		var link = jQuery(this).find("a[href]").attr('href');
-		jQuery('#countyclerkInfoDisplay').html('Loading...');  
-		jQuery('#countyclerkInfoDisplay').load(link+' #page-content', function() {
-			var theight = jQuery('#page-content').height() * 1 + 100;
-		});
+		if (jQuery.support.leadingWhitespace) {
+		    //IE7 and 8 stuff
+			e.preventDefault(); 
+			var link = jQuery(this).find("a[href]").attr('href');
+			jQuery('#countyclerkInfoDisplay').html('Loading...');  
+			jQuery('#countyclerkInfoDisplay').load(link+' #page-content', function() {
+				var theight = jQuery('#page-content').height() * 1 + 100;
+			});
+		}
 		 
 	})
 	
