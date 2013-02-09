@@ -8,13 +8,11 @@ get_header(); ?>
 
 <div id="wrapper" class="sidebar-right-wrapper">
 		<div id="wrapper_inner">
-
-		<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
-			<div id="wrapper">
-		<div id="head-intro"><a href="http://seekingmichigan.org/civil-war/"></a>
-			<div id="intro" class="text-intro"><h1>Events</h1><hr class="divider divider-bbottom">
+			<div id="head-intro"><a href="http://seekingmichigan.org/civil-war/"></a>
+				<div id="intro" class="text-intro"><h1>Events</h1><hr class="divider divider-bbottom">
+				</div>
 			</div>
-		</div>
+			<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
 	
 		<div id="page-content" class="two_third">
 
