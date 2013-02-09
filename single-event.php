@@ -11,8 +11,8 @@ get_header(); ?>
 			<div id="head-intro"><a href="http://seekingmichigan.org/civil-war/"></a>
 				<div id="intro" class="text-intro"><h1>Events</h1><hr class="divider divider-bbottom">
 				</div>
-			</div>
 			<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
+			</div>
 	
 		<div id="page-content" class="two_third">
 
