@@ -10,7 +10,7 @@ get_header(); ?>
 		<div id="wrapper_inner">
 	
 	<div id="wrapper">
-	<div id="civilwar-intro"><a href="http://seekingmichigan.org/civil-war/"></a>
+	<div id="head-intro">
 		<div id="intro" class="text-intro">
 		</div>
 	</div>
