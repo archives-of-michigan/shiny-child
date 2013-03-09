@@ -35,13 +35,13 @@
 
 #search {
 	overflow: hidden;
-	width: 550px;
+	width: auto;
 }
 
 #search_content {
     clear: both;
     font-family: "lucida grande",Verdana,Arial,Helvetica,sans-serif;
-    margin: 0 0 0 10px;
+    margin: 0;
 }
 
 .search_content_container, .search_content_container_advanced {
