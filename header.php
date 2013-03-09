@@ -94,7 +94,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 							<div class="search_content_container leftside" style="margin-top: 3px;">
 								<span id="search_content_text">Search Digital Archive:</span>
 							</div>
-							<div class="search_content_container leftside" style="margin-top: 0px;">
+							<div class="search_content_container leftside" style="margin-top: 4px;">
 								<input id="search_content_box" class="search_content_box_noresults" type="text" autocomplete="off" value="" name="search_content_box" tabindex="1" />
 								<input id="search_results_button_mode" type="hidden" value="0" />
 							</div>
