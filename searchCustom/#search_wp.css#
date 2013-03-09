@@ -86,7 +86,7 @@
     padding: 1px 6px 3px;
     text-transform: uppercase;
     vertical-align: middle;
-    cursor: pointer;
+    cursor: pointer;FewF
 }
 
 #search_content_adv_link {

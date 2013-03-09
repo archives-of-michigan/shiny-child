@@ -86,9 +86,6 @@ $cats = wp_get_post_categories($posts[0]->ID);
 				<div id="social_icons" class="leftside">
 					<?php e404_show_header_social_icons(); ?>
 				</div>
-				<div class="search_content_container_advanced">
-					<div id="search_content_adv_link" tabindex="6">Advanced Search</div>
-				</div>
 				<div class="rightside">
 					<?php if(!$e404_options['remove_search_form'] && !$isHomer) : ?>
 					
@@ -101,9 +98,12 @@ $cats = wp_get_post_categories($posts[0]->ID);
 								<input id="search_content_box" class="search_content_box_noresults" type="text" autocomplete="off" value="" name="search_content_box" tabindex="1" />
 								<input id="search_results_button_mode" type="hidden" value="0" />
 							</div>
-							<div class="search_content_container rightside" style="margin-top: 0px;">
+							<div class="search_content_container leftside" style="margin-top: 0px;">
 								<input id="simple_search_button" class="search_content_button" type="button" value="go" tabindex="2" />
 							</div>
+						</div>
+						<div class="search_content_container_advanced">
+							<div id="search_content_adv_link" tabindex="6">Advanced Search</div>
 						</div>
 					</div>
 					

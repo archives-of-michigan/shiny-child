@@ -56,8 +56,10 @@ echo ' class=""';
 	echo ' class="teach"';
 } elseif(is_category( 'homeschool' )) {
 	echo ' class="teach"';
-	} elseif(is_category( 'michiganmitten' )) {
+} elseif(is_category( 'michiganmitten' )) {
 	echo ' class="teach"';
+} elseif(is_category( 'archives-event' )) {
+	echo ' class=""';
 } elseif( is_single() ) {
 $cats = wp_get_post_categories($posts[0]->ID);
 	if ($cats) {
@@ -96,11 +98,11 @@ $cats = wp_get_post_categories($posts[0]->ID);
 								<span id="search_content_text">Search Digital Archive:</span>
 							</div>
 							<div class="search_content_container leftside" style="margin-top: 0px;">
-								<input id="search_content_box" class="search_content_box_noresults" type="text" autocomplete="off" value="" name="search_content_box" tabindex="1">
-								<input id="search_results_button_mode" type="hidden" value="0">
+								<input id="search_content_box" class="search_content_box_noresults" type="text" autocomplete="off" value="" name="search_content_box" tabindex="1" />
+								<input id="search_results_button_mode" type="hidden" value="0" />
 							</div>
 							<div class="search_content_container rightside" style="margin-top: 0px;">
-								<input id="simple_search_button" class="search_content_button" type="button" value="go" tabindex="2">
+								<input id="simple_search_button" class="search_content_button" type="button" value="go" tabindex="2" />
 							</div>
 						</div>
 					</div>
@@ -138,7 +140,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 								</select>
 							</li>
 							<li class="leftside spaceMar5L">
-								<input id="rid0_term" class="adv_search_str" type="text" value="">
+								<input id="rid0_term" class="adv_search_str" type="text" value="" />
 							</li>
 							<li class="leftside spaceMar5L spacePad5">in</li>
 							<li class="leftside spaceMar5L">
@@ -173,7 +175,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 					</select>
 				</li>
 				<li class="leftside spaceMar5L">
-					<input id="rid1_term" class="adv_search_str" type="text" value="">
+					<input id="rid1_term" class="adv_search_str" type="text" value="" />
 				</li>
 				<li class="leftside spaceMar5L spacePad5">in</li>
 				<li class="leftside spaceMar5L">
@@ -218,13 +220,13 @@ $cats = wp_get_post_categories($posts[0]->ID);
 	</select>
 	</li>
 	<li class="leftside spaceMar15L">
-	<input id="datepicker1" class="datestring" type="text" value="mm/dd/yyyy">
+	<input id="datepicker1" class="datestring" type="text" value="mm/dd/yyyy" />
 	</li>
 	<li class="leftside spaceMar15L spacePad5">
 	<span id="datepickerTo">to</span>
 	</li>
 	<li class="leftside spaceMar15L">
-	<input id="datepicker2" class="datestring" type="text" value="mm/dd/yyyy">
+	<input id="datepicker2" class="datestring" type="text" value="mm/dd/yyyy" />
 	</li>
 	</ul>
 
@@ -232,7 +234,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 	</div>
 		<span class="clear"></span>
 		<div class="spaceMar15R spaceMar15T leftside">
-			<input id="advanced_search_button" class="search_content_button" type="button" value="Search">
+			<input id="advanced_search_button" class="search_content_button" type="button" value="Search" />
 		</div>
 
 		<span class="clear"></span>
