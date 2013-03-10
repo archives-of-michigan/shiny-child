@@ -64,6 +64,7 @@
     font-family: "lucida grande",Verdana,Arial,Helvetica,sans-serif;
     margin-top: 1px;
     width: 193px;
+    padding: 0 2px;
 }
 
 .search_content_box_noresults {
@@ -139,7 +140,7 @@
 #adv_search_col_2 {
 	padding: 10px 0 0 20px;
 	float: left;
-	margin-left: 100px;
+	margin-left: 30px;
 	font-size: 11px;
 	height: 530px;
 }
@@ -283,7 +284,7 @@ a.suggested_word_selected {
 .spacePad30B { padding-bottom: 30px; }
 
 #collectionsBoxes{
-	width:200px;
+	width:290px;
 }
 
 #spacerDiv{
