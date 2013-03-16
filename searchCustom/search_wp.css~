@@ -20,6 +20,7 @@
     background-position: left bottom;
     background-repeat: repeat !important;
     margin-bottom: 40px;
+    margin-top:14px;
     width: 100%;
 }
 
