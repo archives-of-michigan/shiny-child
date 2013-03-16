@@ -9,7 +9,7 @@ html  {
 html,
 body,
 form {
-	color: #666;
+	color: #444;
 }
 
 /* forms */
@@ -95,11 +95,11 @@ a:hover,
 .sf-menu li.current-page-ancestor li a,
 .sf-menu li.current-menu-parent li a,
 .sf-menu li.current-menu-ancestor li a {
-	color: #aaa;
+	color: #fff;
 }
 .sf-menu li:hover li a:hover,
 .sf-menu li li.current-menu-item a {
-	color: #fff;
+	color: #bbb;
 	background-color: #000;
 }
 
@@ -111,7 +111,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #444;
+	color: #333;
 }
 #footer h1,
 #footer h2,
@@ -188,7 +188,7 @@ form input[type="submit"] {
 	color: #339ed6;
 }
 .light-box a:hover {
-	color: #fff;
+	color: #bbb;
 }
 .light-box h1,
 .light-box h2,
