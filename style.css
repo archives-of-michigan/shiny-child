@@ -16,6 +16,12 @@ body {
 
 body.body_slider { background-position: 0 338px; }
 
+html,
+body,
+form {
+	font: 14px/20px "lucida grande","lucida sans unicode",tahoma,verdana,arial,sans-serif;
+}
+
 #logo {
 	position: absolute;
 	padding-top: 40px;
@@ -136,12 +142,12 @@ a.small-btn span, a.medium-btn span, a.big-btn span {
 /* ---------------------------------------- */
 /* home style */
 
-body.body_slider #header_wrapper {
+body.body_slider #top_header_wrapper {
 	background: none !important;
 	height: 0px !important;
 }
 
-body.body_slider #header_header_wrapper {
+body.body_slider #header_wrapper {
 	background: url("images/bg-home-header.png");
 	background-color: #A1B340;
 	background-position: left bottom;
