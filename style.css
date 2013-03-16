@@ -689,7 +689,7 @@ body.body_slider li.event-header {
 	position: relative;
 	list-style: none;
 	padding: 10px;
-	min-height: 140px;
+	min-height: 170px;
 	background: #A2B92E;
 }
 
@@ -704,7 +704,7 @@ body.body_slider li.event-details {
 	position: relative;
 	list-style: none;
 	border-left: dotted 1px #666666;
-	min-height: 160px;
+	min-height: 190px;
 }                                      
 
 body.body_slider .event-text {
