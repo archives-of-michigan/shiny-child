@@ -14,6 +14,8 @@ body {
 	background: url('images/body-gradient2.png') 0 181px repeat-x;
 }
 
+body.body_slider { background-position: 0 338px; }
+
 html,
 body,
 form {
@@ -97,29 +99,67 @@ form {
     -webkit-border-radius: 20px 20px 20px 20px;
 }
 
+.more span {
+	background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
+	border: 1px solid #98AD2E;
+}
+
+.more span a {
+	color: #FFFFFF;
+}
+
+a.small-btn span, a.medium-btn span, a.big-btn span {
+    background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
+    border: 1px solid #98AD2E;
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4) inset;
+    color: #FFFFFF;
+    display: block;
+}
+
 #head_intro {
 	margin-bottom: 20px;
 	min-height: 25px;
 	background: url('images/intro-bg.png') 50% 100% no-repeat;
 }
 
-.thumbnail_wrapper .aligncenter {
-    margin: 0;
-    width: 100%;
+.one_half, .one_third, .one_fourth, .one_fifth, .one_sixth, .one_eighth, .two_third, .two_fourth, .two_fifth, .three_fourth, .three_fifth, .three_eighth, .four_fifth, .five_sixth, .five_eighth, .seven_eighth {
+    float: left;
+    margin: 0 30px 10px 0;
+    position: relative;
 }
 
-#sidebar .widgets {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#0C000000', endColorstr='#0C000000');
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    border-radius: 4px 4px 4px 4px;
-    padding: 20px 20px 10px;
+.divider-dotted {
+    background-repeat: repeat-x;
+    border: medium none;
+    height: 2px;
+    margin: 0 0 20px;
+}
+
+#page-content .full_page {
+    margin: 0 0 20px;
 }
 
 /* ---------------------------------------- */
 /* home style */
 
-#featured {margin-top: -280px;}
+body.body_slider #top_header_wrapper {
+	background: none !important;
+	height: 0px !important;
+}
+
+body.body_slider #header_wrapper {
+	background: url("images/bg-home-header.png");
+	background-color: #A1B340;
+	background-position: left bottom;
+	background-repeat: repeat;
+	height: 275px;
+}
+
+body.body_slider #featured {
+	margin: -210px auto 20px;
+}
+
+#featured_inner { box-shadow: 0 169px 0 rgba(0, 0, 0, 0.05) inset;}
 
 /* ---------------------------------------- */
 /* portfolio style */
@@ -421,6 +461,35 @@ body.teach .post-header {
 	color: #fff !important;
 }
 
+.share-this {
+    clear: both;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+#submit {
+    background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
+    border: 1px solid #98AD2E;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    font: 12px/18px "lucida grande","lucida sans unicode",tahoma,verdana,arial,sans-serif;
+}
+
+.showcase-postcontent {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 20px;
+    max-width: 40%;
+    padding: 12px 30px;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+}
+
 /* ---------------------------------------- */
 /* discover - item viewer */
 
@@ -581,121 +650,120 @@ body.civilwar .tribe-events-calendar td a {
 }
 
 /* ---------------------------------------- */
-/* The EventCalendar with PHP Customization */
+/* Event Manager Customization */
 
-body.teach #wp-calendar {
- 	background: #fff;
-	color: #666;
-	margin-bottom: 20px;;
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-	font-size:12px;
-	line-height:18px;
+body.body_slider .events-table td {
+	border-top: 1px dotted #EDEDED;
+	padding: 10px;
+	text-align: left;
+	line-height: 1em;
 }
 
-body.teach #wp-calendar caption a {
-	color: #666;
+body.body_slider .events-table tbody {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-body.teach #wp-calendar #prev, 
-body.teach #wp-calendar #next {
-  background-color: #FFFFFF;
-  padding: 10px;
-  text-align: center;
-  vertical-align: top;
+body.body_slider .events-table thead {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 0;
+    padding: 10px 10px 0;
 }
 
-body.teach #wp-calendar #prev {
-  text-align:left;
+body.body_slider .events-table {
+    margin: 0 0 40px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px 4px 4px 4px;
 }
 
-body.teach #wp-calendar #next {
-  text-align:right;
+body.body_slider li.event-header {
+	width: 115px;
+	float: left;
+	position: relative;
+	list-style: none;
+	padding: 10px;
+	min-height: 170px;
+	background: #A2B92E;
 }
 
-body.teach .ec3_eventday a {
-    background: none repeat scroll 0 0 #B2B2B2;
-    border-radius: 15px 15px 15px 15px;
-    color: #FFFFFF !important;
-    display: inline-block;
-    height: 18px;
-    margin-top: -3px;
-    padding: 1px;
-    text-decoration: none;
-    width: 18px;
+body.body_slider li.event-header h2,
+body.body_slider li.event-header a,
+body.body_slider li.event-header h5
+{color: #FFFFFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);}
+
+body.body_slider li.event-details {
+	width: 260px;
+	float: left;
+	position: relative;
+	list-style: none;
+	border-left: dotted 1px #666666;
+	min-height: 190px;
+}                                      
+
+body.body_slider .event-text {
+	width: 240px;
+	padding: 10px;
 }
 
-body.teach #wp-calendar table td,
-body.teach #wp-calendar table.nav tr td {
- padding:5px;
- border:none;
+span.wpcf7-list-item-label {
+	margin-left: 5px;
+	display: inline;
 }
 
-body.teach #wp-calendar table.nav tr td a{
-	color: #757575;
+.em-calendar-wrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    color: #666666;
+    margin-bottom: 20px;
 }
 
-body.teach #wp-calendar #prev a {
-	background-image: url(images/hori_large.png);
-	width: 28px;
-	height: 28px;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-}
-	
-body.teach #wp-calendar #next a {
-	background-image: url(images/hori_large.png);
-	background-position: 0 -30px;
-	width: 28px;
-	height: 28px;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+table.em-calendar {
+    border: medium none;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 0;
+    width: 100%;
 }
 
-body.teach #wp-calendar #prev a:hover {
-	background-position: -30px 0;
-}
-	
-body.teach #wp-calendar #next a:hover {
-	background-position: -30px -30px;
+table.em-calendar thead tr {
+    font-size: 12px;
+    font-weight: bold;
+    background: none repeat scroll 0 0 #FFFFFF;
 }
 
-body.teach #wp-calendar table.nav tr td,
-body.teach #wp-calendar table.nav tr a {
-	background: none repeat scroll 0 0 #fff;
-	font-size: 15px;
-	line-height: 20px;
-	width: 75px;
+table.em-calendar tbody tr.days-names {
+    font-size: 12px;
+    font-weight: bold;
+    background: none repeat scroll 0 0 #FFFFFF;
+}	
+
+table.em-calendar tbody td.eventless,
+table.em-calendar tbody td.eventful {
+    background: none repeat scroll 0 0 #F5F5F5;
+    color: #999999;
 }
 
-body.teach #wp-calendar td {
-	vertical-align: middle;
+table.em-calendar tbody td.eventless-today {
+    background: none repeat scroll 0 0 #F5F5F5;
+    color: #999999;
+    border: 1px solid #999999;
 }
 
-body.teach table.ec3_schedule {
-	border: none !important;
-	float: none !important;
+table.em-calendar tbody td.eventless-pre,
+table.em-calendar tbody td.eventless-post,
+table.em-calendar tbody td.eventfull-pre,
+table.em-calendar tbody td.eventfull-post {
+    background: none repeat scroll 0 0 #E4E4E4;
+    color: #999999;
 }
-
-body.teach table.ec3_schedule td {
-	color: #89151F;
-	padding: 10px 0.5ex;
-}
-
-body.teach li.ec3_list_day {
-    background-image: url("images/calendar_red.png");
-    background-position: 5px 15px;
-    background-repeat: no-repeat;
-    padding: 12px 0 10px 30px !important;
-}
-
-
 
 /* this is the div for the circles over the map */
 
