@@ -23,10 +23,6 @@
     width: 100%;
 }
 
-.body_slider #header_wrapper {
-	margin-top:12px;
-}
-
 .body_slider #header_wrapper {height:375px;}
 
 #header_wrapper {height: 116px;}
