@@ -490,6 +490,9 @@ body.teach .post-header {
     top: 100px;
 }
 
+.thumbnail_wrapper .aligncenter {
+width:100%;}
+
 /* ---------------------------------------- */
 /* discover - item viewer */
 
