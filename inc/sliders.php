@@ -336,6 +336,10 @@ function e404_show_showcase_slider() {
 		if(!empty($slide->post_title) && $e404_all_options['e404_showcase_captions'] == '1' && $image) {
 			$slide_output .= '<div class="showcase-caption">'.$slide->post_title.'</div>';
 		}
+		// this section should insert post content in a new 'showcase-postcontent' div if Show Captions is turned on
+		if(!empty($slide->post_content) && $e404_all_options['e404_showcase_captions'] == '1' && $image) {
+			$slide_output .= '<div class="showcase-postcontent">'.$slide->post_content.'</div>';
+		}
 		if($e404_all_options['e404_showcase_thumbnails'] != 'disabled') {
 			if(isset($meta['thumbnail']))
 				$image[0] = $meta['thumbnail'];

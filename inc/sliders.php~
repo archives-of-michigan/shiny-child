@@ -54,7 +54,7 @@ function e404_get_slideshow() {
 }
 
 function e404_get_slider_height() {
-	$height = 300;
+	$height = 150;
 	$current_template = e404_get_current_template();
 	if(substr($current_template, 0, 9) == 'home-page') {
 		$height = get_option('e404_home_slider_height');
