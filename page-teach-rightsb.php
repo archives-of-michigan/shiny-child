@@ -29,11 +29,9 @@ get_header(); ?>
 			<?php get_template_part('navigation'); ?>
 
 		</div>
-		<?php if($e404_options['blog_layout'] == 'sidebar-right') : ?>
-			<div id="sidebar" class="one_third last sidebar-right">
-		<?php get_sidebar('blog'); ?>
-			</div>
-		<?php endif; ?>
+		<div id="sidebar" class="one_third last sidebar-right">
+			<?php get_sidebar('page'); ?>
+		</div>
 		<br class="clear" />
 		</div>
 	</div>
