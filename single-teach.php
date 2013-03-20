@@ -151,7 +151,7 @@ while ( have_posts() ) : the_post(); ?>
 		</div>
 	<?php if($e404_options['blog_layout'] == 'sidebar-right') : ?>
 		<div id="sidebar" class="one_third last sidebar-right">
-	<?php get_sidebar('teach'); ?>
+	<?php get_sidebar('blog'); ?>
 		</div>
 	<?php endif; ?>
 		<br class="clear" />
