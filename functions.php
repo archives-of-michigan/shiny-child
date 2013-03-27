@@ -53,6 +53,7 @@ require_once(OF_FILEPATH.'/inc/shortcode-manager.php');
 // theme settings
 add_theme_support('post-thumbnails');
 add_theme_support('automatic-feed-links');
+add_theme_support( 'woocommerce' );
 
 // register sidebars
 register_sidebar(array(	'id' => 'e404_blog_sidebar',
