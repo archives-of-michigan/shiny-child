@@ -17,12 +17,6 @@ get_header(); ?>
 
 
 		<?php woocommerce_content(); ?>
-		
-<?php woocommerce_content(); ?>
-			<div id="post-<?php the_ID(); ?>" class="page-layout">
-				<?php the_content(); ?>
-
-			</div>
 			
 			<?php get_template_part('navigation'); ?>
 
