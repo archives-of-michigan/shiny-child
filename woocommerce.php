@@ -6,18 +6,23 @@
 
 get_header(); ?>
 
-<div id="wrapper" class="sidebar-right-wrapper">
-		<div id="wrapper_inner">
-	
+
+
 	<div id="wrapper">
-	<div id="head-intro">
-		<div id="intro" class="text-intro">
-		</div>
-	</div>
-	
-		<div id="page-content" class="two_third">
+		
+		<?php if((isset($e404_options['main_intro_type']) && $e404_options['main_intro_type'] != 'none') || $e404_options['breadcrumbs']) echo '<div id="head_intro">'; ?>
+			<?php include(OF_FILEPATH.'/main-intro-box.php'); ?>
+			<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
+		<?php if((isset($e404_options['main_intro_type']) && $e404_options['main_intro_type'] != 'none') || $e404_options['breadcrumbs']) echo '</div>'; ?>
+
 
 		<?php woocommerce_content(); ?>
+		
+<?php woocommerce_content(); ?>
+			<div id="post-<?php the_ID(); ?>" class="page-layout">
+				<?php the_content(); ?>
+
+			</div>
 			
 			<?php get_template_part('navigation'); ?>
 
