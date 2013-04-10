@@ -142,6 +142,9 @@ jQuery(document).ready(function() {
 			jQuery('#countyclerkInfoDisplay').html('Loading...');  
 			jQuery('#countyclerkInfoDisplay').load(link+' #page-content', function() {
 				var theight = jQuery('#page-content').height() * 1 + 100;
+				var y = $(window).scrollTop();
+				$(window).scrollTop(y+150);
+
 			});
 		}
 		 
