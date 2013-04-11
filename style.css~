@@ -774,7 +774,7 @@ table.em-calendar tbody td.eventfull-post {
 }
 div.michigan-map {
 	width: 255px;
-	height: 278px;
+	height: 294px;
 	background-color: transparent;
 	background: url("images/michiganmap.jpg") no-repeat 0px 0px;
 	margin-left: 300px;
@@ -810,11 +810,10 @@ div.michigan-map ul.maploc li  strong {
 	left: -5000px;
 	width: 236px;
 	display: block;
-	padding: 5px;
+	padding: 0px;
 	text-align: center;
 	border-top: 1px dotted #999;
 	border-bottom: 1px dotted #999;
-	padding-top: 5px;
 	background: rgba(250,250,250,0.8);
 	color: #666666;
 }
@@ -882,4 +881,5 @@ div.michigan-map ul.maploc li.maploc11 a {
 	background: none repeat scroll 0 0 #FFFFFF;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	padding: 20px;
+	margin-bottom: 20px;
 }
