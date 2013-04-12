@@ -19,12 +19,12 @@ jQuery(document).ready(function() {
 	});
 	
 	jQuery("#simple_search_button").click(function(){
-		window.location= "http://cdm16317.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
+		window.location= "http://seekingmichigan.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
 	});
 	
 	jQuery('#search_content_box').keypress(function (e) {
 	  if (e.which == 13) {
-	    window.location= "http://cdm16317.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
+	    window.location= "http://seekingmichigan.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
 	  }
 	});
 	
