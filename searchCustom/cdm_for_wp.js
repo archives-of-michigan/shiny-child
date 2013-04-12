@@ -112,7 +112,7 @@ jQuery(document).ready(function() {
 			conn = conn + '!' + 'and';
 			mode = mode + '!' + 'exact';
 		}
-		window.location= "http://cdm16317.contentdm.oclc.org/cdm/search" + collection + term + field + mode + conn + "/order/nosort";
+		window.location= "http://seekingmichigan.contentdm.oclc.org/cdm/search" + collection + term + field + mode + conn + "/order/nosort";
 	});
 	
 	function getAdvMore(n){
