@@ -767,6 +767,26 @@ table.em-calendar tbody td.eventfull-post {
     color: #999999;
 }
 
+.em-booking-form {margin-top: -50px;}
+
+.em-tickets {
+	width:610px;
+	background: none repeat scroll 0 0 #F5F5F5;
+	border: 1px solid #FFFFFF;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 1px 0 #D0D0D0, 0 4px 0 #D7D7D7, 0 5px 0 #C1C1C1, 0 6px 4px rgba(0, 0, 0, 0.17);
+}
+
+.em-attendee-fields {border-top: 1px dotted #AAAAAA; padding-bottom: 2px;}
+
+.em-booking-form-details {width:610px !important;}
+
+.em-booking-form label {width:165px !important;}
+
+.em-booking-form span.input-group {margin-left:175px !important;}
+
+#em-booking-gateway-authorize_aim {margin-top:10px;}
+
 /* this is the div for the circles over the map */
 
 #main-content ul.maploc {

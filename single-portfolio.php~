@@ -31,7 +31,7 @@ while ( have_posts() ) : the_post(); ?>
 	$portfolio_page_id = get_option('e404_portfolio_page');
 	$portfolio_page = get_page($portfolio_page_id);
 	$portfolio_cdmid = get_post_meta($post->ID, 'wpcf-cdmid', true);
-	$portfolio_url = "http://seekingmichigan.contentdm.oclc.org/cdm/search/collection/".$portfolio_cdmid;
+	$portfolio_url = "http://cdm16317.contentdm.oclc.org/cdm/search/collection/".$portfolio_cdmid;
 	$like_class = e404_liked($post->ID) ? 'fancy_likes_you_like' : 'fancy_likes';
 ?>
 			<div class="portfolio-nav">

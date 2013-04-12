@@ -37,13 +37,7 @@ if(isset($term))
 	$query .= "&term=".$term;
 $i = 0;
 $custom_query = new WP_Query($query);
-if($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); $i++; 
-
-	$portfolio_page_id = get_option('e404_portfolio_page');
-	$portfolio_page = get_page($portfolio_page_id);
-	$portfolio_cdmid = get_post_meta($post->ID, 'wpcf-cdmid', true);
-	$portfolio_url = "http://seekingmichigan.contentdm.oclc.org/cdm/search/collection/".$portfolio_cdmid;
-?>
+if($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); $i++; ?>
 				<div class="one_half<?php if($i % 2 == 0) echo ' last'; ?>">
 					<div class="portfolio-item" id="post-<?php the_ID(); ?>">
 						<?php
