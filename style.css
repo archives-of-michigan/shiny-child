@@ -913,3 +913,11 @@ div.michigan-map ul.maploc li.maploc11 a {
 	padding: 20px;
 	margin-bottom: 20px;
 }
+
+/* ---------------------------------------- */
+/* WooCommerce Styling */
+
+#images {width: 300px; height: 300px; float: left;}
+
+.summary, .entry-summary {float: right; width: 300px;}
+	
