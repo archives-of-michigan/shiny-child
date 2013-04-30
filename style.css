@@ -921,6 +921,13 @@ div.michigan-map ul.maploc li.maploc11 a {
 .variations_button {margin: 20px 0;}
 .quantity {margin: 20px;}
 
+input.minus, input.plus {
+	padding:10px; 
+	background-color: #A3B92F;
+	border: 1px solid #97AB2E;
+	color: #FFFFFF;
+}
+
 .summary, .entry-summary {float: right; width: 300px;}	
 
 .woocommerce-tabs {float: left; width: 100%;}
