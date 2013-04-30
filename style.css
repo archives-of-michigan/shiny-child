@@ -922,8 +922,6 @@ div.michigan-map ul.maploc li.maploc11 a {
 
 .woocommerce-tabs {float: left; width: 100%;}
 
-.related {float: left;}
-
 #wrapper .tabs {height: 40px;}
 
 .tabs li.active a {
@@ -939,4 +937,12 @@ div.michigan-map ul.maploc li.maploc11 a {
     clear: both;
     padding: 30px 30px 20px;
     z-index: 990;
+}
+
+.related {float: left;}
+
+.related ul li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
 }
