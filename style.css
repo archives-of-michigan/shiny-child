@@ -928,7 +928,7 @@ input.minus, input.plus {
 	color: #FFFFFF;
 }
 
-input.qty {width:20px; padding:10px;}
+input.qty {width:20px; padding:10px; border: 1px solid #97AB2E;}
 
 button.single_add_to_cart_button {
 	padding:10px; 
