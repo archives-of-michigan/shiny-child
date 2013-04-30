@@ -939,10 +939,10 @@ div.michigan-map ul.maploc li.maploc11 a {
     z-index: 990;
 }
 
-.related {float: left;}
+.related {float: left; margin: 30px 0;}
 
 .related ul li {
-    list-style: none;
+    list-style: none !important;
     float: left;
     padding-right: 20px;
 }
