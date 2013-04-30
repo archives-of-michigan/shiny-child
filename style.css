@@ -919,9 +919,18 @@ div.michigan-map ul.maploc li.maploc11 a {
 .images {width: 300px; height: 300px; float: left;}
 
 .variations_button {margin: 20px 0;}
-.quantity {margin: 20px;}
+.quantity {margin: 20px 0;}
 
 input.minus, input.plus {
+	padding:10px; 
+	background-color: #A3B92F;
+	border: 1px solid #97AB2E;
+	color: #FFFFFF;
+}
+
+input.qty {width:20px; padding:10px;}
+
+button.single_add_to_cart_button {
 	padding:10px; 
 	background-color: #A3B92F;
 	border: 1px solid #97AB2E;
