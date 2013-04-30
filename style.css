@@ -920,11 +920,11 @@ div.michigan-map ul.maploc li.maploc11 a {
 
 .summary, .entry-summary {float: right; width: 300px;}	
 
-.woocommerce-tabs {float: left;}
+.woocommerce-tabs {float: left; width: 100%;}
 
 .related {float: left;}
 
-#wrapper .tabs {height: 40px; width: 100%;}
+#wrapper .tabs {height: 40px;}
 
 .tabs li.active a {
     background-color: #A3B92F;
