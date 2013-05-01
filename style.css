@@ -952,9 +952,10 @@ button.single_add_to_cart_button {
 	background-color: #A3B92F;
 	border: 1px solid #97AB2E;
 	color: #FFFFFF;
+	margin: 20px 0;
 }
 
-.summary, .entry-summary {float: right; width: 300px;}	
+.summary, .entry-summary {float: left; width: 300px;}	
 
 .woocommerce-tabs {float: left; width: 100%;}
 

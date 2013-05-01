@@ -918,13 +918,47 @@ div.michigan-map ul.maploc li.maploc11 a {
 
 .images {width: 300px; height: 300px; float: left;}
 
+.variations_button {margin: 20px 0;}
+
+table.variations {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    clear: both;
+    padding: 30px 30px 20px;
+}
+
+table.variations td {padding: 10px;}
+
+.quantity {margin: 20px 0;}
+
+input.minus, input.plus {
+	padding:10px; 
+	background-color: #A3B92F;
+	border: 1px solid #97AB2E;
+	color: #FFFFFF;
+}
+
+input.qty {
+	width:20px; 
+	padding:10px; 
+	border-top: 1px solid #97AB2E;
+	border-bottom: 1px solid #97AB2E;
+	height: 15px;
+}
+
+button.single_add_to_cart_button {
+	padding:10px; 
+	background-color: #A3B92F;
+	border: 1px solid #97AB2E;
+	color: #FFFFFF;
+}
+
 .summary, .entry-summary {float: right; width: 300px;}	
 
-.woocommerce-tabs {float: left;}
+.woocommerce-tabs {float: left; width: 100%;}
 
-.related {float: left;}
-
-#wrapper .tabs {height: 40px; width: 100%;}
+#wrapper .tabs {height: 40px;}
 
 .tabs li.active a {
     background-color: #A3B92F;
@@ -939,4 +973,20 @@ div.michigan-map ul.maploc li.maploc11 a {
     clear: both;
     padding: 30px 30px 20px;
     z-index: 990;
+}
+
+.related {float: left; margin: 30px 0;}
+
+.related ul li {
+    list-style: none !important;
+    float: left;
+    padding-right: 20px;
+}
+
+img.attachment-shop_catalog {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 #D0D0D0, 0 4px 0 #D7D7D7, 0 5px 0 #C1C1C1, 0 6px 4px rgba(0, 0, 0, 0.17);
+    padding: 5px;
 }
