@@ -1,24 +1,24 @@
 <?php
 /**
- * Template name: Splash Page for Stories
+ * Template name: Single Page for Stories.
  *
  */
 
 get_header(); ?>
 
-<div id="wrapper" class="sidebar-right-wrapper">
-		<div id="wrapper_inner">
-	
-	<div id="wrapper">
-	<div id="head-intro">
-		<div id="intro" class="text-intro">
-		</div>
-	</div>
-	
-		<div id="page-content" class="two_third">
 
+
+	<div id="wrapper">
+		<div id="story-submenu-wrapper">
+			<ul>
+				<li>First Encounters</li>
+				<li>Story 2</li>
+				<li>Story 3</li>
+				<li>Story 4</li>
+			</ul>
+		</div>
+	
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-		<?php if($e404_options['page_titles']) : ?><h2 class="fancy-header"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2><?php endif; ?>
 			<div id="post-<?php the_ID(); ?>" class="page-layout">
 				<?php the_content(); ?>
 
@@ -30,12 +30,7 @@ get_header(); ?>
 			
 			<?php get_template_part('navigation'); ?>
 
-		</div>
-		<div id="sidebar" class="one_third last sidebar-right">
-			<?php get_sidebar('page'); ?>
-		</div>
 		<br class="clear" />
-		</div>
 	</div>
 
 <?php get_footer(); ?>
