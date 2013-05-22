@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Single Page for Stories.
+ * Template name: Teach stories single page
  *
  */
 
