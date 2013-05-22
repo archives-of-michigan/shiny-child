@@ -1000,17 +1000,26 @@ img.attachment-shop_catalog {
 	border: 1px solid #98AD2E;
 	width: 100%;
 	height: 30px;
+	position: relative
+}
+
+#story-submenu-wrapper ul li {
+	list-style: none outside none;
+	padding: 5px 30px 5px 10px;
+	display: block;
+	float: left;
 }
 
 #story-submenu-wrapper ul li:after, #story-submenu-wrapper ul li:before {
-	list-style: none;
-	border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent; 
-	border-right:10px solid #98AD2E;
-	display: block;
-	float: left;
-	list-style: none outside none;
-	padding: 5px 30px 5px 10px;
+	left: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
 }
 #story-submenu-wrapper ul li:after {
 	border-color: rgba(162, 185, 46, 0);
