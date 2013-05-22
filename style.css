@@ -1002,7 +1002,7 @@ img.attachment-shop_catalog {
 	height: 30px;
 }
 
-#story-submenu-wrapper ul li {
+#story-submenu-wrapper ul li:after, #story-submenu-wrapper ul li:before {
 	list-style: none;
 	border-top: 10px solid transparent;
 	border-bottom: 10px solid transparent; 
@@ -1011,5 +1011,19 @@ img.attachment-shop_catalog {
 	float: left;
 	list-style: none outside none;
 	padding: 5px 30px 5px 10px;
+}
+#story-submenu-wrapper ul li:after {
+	border-color: rgba(162, 185, 46, 0);
+	border-left-color: #A2B92E;
+	border-width: 10px;
+	top: 50%;
+	margin-top: -10px;
+}
+#story-submenu-wrapper ul li:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #c2e1f5;
+	border-width: 11px;
+	top: 50%;
+	margin-top: -11px;
 }
 	
