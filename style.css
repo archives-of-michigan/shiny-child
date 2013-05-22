@@ -999,4 +999,17 @@ img.attachment-shop_catalog {
 	background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
 	border: 1px solid #98AD2E;
 	width: 100%;
+	height: 30px;
 }
+
+#story-submenu-wrapper ul li {
+	list-style: none;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid #98AD2E;
+	display: block;
+	float: left;
+	list-style: none outside none;
+	padding: 5px 30px 5px 10px;
+}
+	
