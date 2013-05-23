@@ -11,10 +11,10 @@ get_header(); ?>
 	<div id="wrapper">
 		<div id="story-submenu-wrapper">
 			<ul>
-				<li><a href="#">First Encounters</a></li>
-				<li><a href="#">Story 2</a></li>
-				<li><a href="#">Story 3</a></li>
-				<li><a href="#">Story 4</a></li>
+				<li>First Encounters</li>
+				<li>Story 2</li>
+				<li>Story 3</li>
+				<li>Story 4</li>
 			</ul>
 		</div>
 	
