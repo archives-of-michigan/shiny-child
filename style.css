@@ -557,7 +557,7 @@ width:100%;}
 
 #wrapper .tabs {margin-top: 40px;}
 
-.tab_content {margin-bottom: 40px;}
+.tab_content {margin-bottom: 20px;}
 
 /* ---------------------------------------- */
 /* lists styles */
@@ -1010,3 +1010,5 @@ img.attachment-shop_catalog {
 	display: block;
 	float: left;
 }	
+
+body.teach .info_box {margin-top:20px}
