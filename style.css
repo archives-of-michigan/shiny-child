@@ -1002,6 +1002,7 @@ img.attachment-shop_catalog {
 	height: 40px;
 	position: relative;
 	margin-bottom:20px;
+	border-radius: 4px;
 }
 
 #story-submenu-wrapper ul li {
