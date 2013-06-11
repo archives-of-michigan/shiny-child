@@ -24,7 +24,7 @@ get_header(); ?>
 		
 		</div>
 		<div id="sidebar" class="one_third last sidebar-right">
-			<?php get_sidebar('shop'); ?>
+			<?php get_sidebar('store'); ?>
 		</div>
 
 		<br class="clear" />
