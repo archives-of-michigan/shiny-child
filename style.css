@@ -995,7 +995,9 @@ img.attachment-shop_catalog, img.attachment-shop_single {
     margin-bottom: 10px;
 }
 
-.gform_wrapper, .gform_footer {margin: 0; padding: 0 0 10px;}
+.gform_wrapper, .gform_footer {
+	margin: 0 !important; 
+	padding: 0 0 10px !important;}
 
 /* ---------------------------------------- */
 /* Story Styling */
