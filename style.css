@@ -997,7 +997,15 @@ img.attachment-shop_catalog, img.attachment-shop_single {
 
 .gform_wrapper, .gform_footer {
 	margin: 0 !important; 
-	padding: 0 0 10px !important;}
+	padding: 0 0 10px !important;
+}
+	
+.woocommerce ul.products li.first, 
+.woocommerce-page ul.products li.first, 
+.woocommerce ul.products li.product, 
+.woocommerce-page ul.products li.product {
+	list-style: none !important;
+}	
 
 /* ---------------------------------------- */
 /* Story Styling */
