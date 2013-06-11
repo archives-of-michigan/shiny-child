@@ -21,7 +21,7 @@ foreach($e404_custom_sidebars as $sidebar) {
 function e404_get_sidebar_name($section) {
     global $wp_query, $e404_custom_sidebars;
 
-    $sections = array('blog', 'gallery', 'page', 'portfolio', 'store', 'teach');
+    $sections = array('blog', 'gallery', 'page', 'portfolio');
     if(!in_array($section, $sections))
         return;
     
