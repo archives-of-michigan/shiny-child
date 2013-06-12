@@ -6,12 +6,10 @@
 
 get_header(); ?>
 
-
-
 	<div id="wrapper" class="sidebar-right-wrapper">
 		<div id="wrapper_inner">
 		
-			<div id="breadcrumb"><a href="http://seekingmichigan.org">Home</a><span>Ý</span><a href="http://seekingmichigan.org/shop">Shop</a><span>Ý</span><?php echo get_the_title($ID); ?> </div>
+			<div id="breadcrumb"><a href="http://seekingmichigan.org">Home</a><span>Ý</span><a href="http://seekingmichigan.org/shop">Shop</a><span>Ý</span><?php echo get_the_title($ID); ?></div>
 			
 		<div id="page-content" class="two_third">
 
