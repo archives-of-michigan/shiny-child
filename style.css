@@ -1002,7 +1002,19 @@ img.attachment-shop_catalog, img.attachment-shop_single {
 	
 li.product {
 	list-style: none !important;
-}	
+	float: left;
+	width: 180px;
+	height: 260px;
+	padding: 20px 10px
+}
+
+li.product .first {
+	padding: 20px 0px 10px;
+}
+
+li.product .last {
+	padding: 20px 10px 0px;
+}
 
 /* ---------------------------------------- */
 /* Story Styling */
