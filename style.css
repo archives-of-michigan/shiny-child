@@ -1008,13 +1008,16 @@ li.product {
 	padding: 20px 10px;
 }
 
-li.product .first {
+li.first {
 	padding: 20px 0px 10px;
 }
 
-li.product .last {
+li.last {
 	padding: 20px 10px 0px;
 }
+
+nav.paganation {
+	
 
 /* ---------------------------------------- */
 /* Story Styling */
