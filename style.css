@@ -1000,7 +1000,7 @@ img.attachment-shop_catalog, img.attachment-shop_single {
 	padding: 0 0 10px !important;
 }
 	
-.woocommerce li.product {
+li.product {
 	list-style: none !important;
 }	
 
