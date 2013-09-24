@@ -8,9 +8,7 @@ get_header(); ?>
 	
 	<div id="wrapper" class="sidebar-right-wrapper">
 		<div id="store-intro">
-			<div id="intro" class="text-intro">
-			<hr class="divider divider-bbottom">
-			</div>
+			<div id="intro" class="text-intro"></div>
 		</div>
 		<div id="wrapper_inner">
 		
@@ -32,7 +30,7 @@ get_header(); ?>
 
 		</div>
 		<div id="sidebar" class="one_third last sidebar-right">
-			<?php get_sidebar('store'); ?>
+			<?php get_sidebar('default'); ?>
 		</div>
 		<br class="clear" />
 		</div>
