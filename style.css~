@@ -1000,12 +1000,14 @@ img.attachment-shop_catalog, img.attachment-shop_single {
 	padding: 0 0 10px !important;
 }
 	
-.woocommerce ul.products li.first, 
-.woocommerce-page ul.products li.first, 
-.woocommerce ul.products li.product, 
-.woocommerce-page ul.products li.product {
+li.product {
 	list-style: none !important;
-}	
+	float: left;
+	width: 180px;
+	height: 260px;
+	padding: 20px 10px;
+}
+	
 
 /* ---------------------------------------- */
 /* Story Styling */
@@ -1034,3 +1036,32 @@ body.teach #wrapper .tabs {margin-top:20px}
 body.teach .title_box {padding: 15px 20px;}
 
 body.teach .more {margin: 10px 0;}
+
+* ---------------------------------------- */
+/* teach intro */
+
+#store-intro {
+	margin-bottom: 40px;
+	margin-top: -40px;
+	margin-left: -30px;
+	height: 180px;
+	width: 990px;
+	background: url('images/store-intro.png') no-repeat;
+	z-index: 3;
+}
+
+#store-intro .divider {
+	margin-top: 162px;
+}
+
+body.store #header_wrapper {
+	background-color: #ae9fca;
+	background-image: url('images/bg-teach-header.png');
+	background-position: left bottom;
+	background-repeat: repeat;
+}
+
+body.store .post-header {
+	padding: 20px 30px;
+	background: #ae9fca;
+}

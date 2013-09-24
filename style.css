@@ -1007,16 +1007,6 @@ li.product {
 	height: 260px;
 	padding: 20px 10px;
 }
-
-li.first {
-	padding: 20px 0px 10px;
-}
-
-li.last {
-	padding: 20px 10px 0px;
-}
-
-nav.paganation {
 	
 
 /* ---------------------------------------- */
@@ -1046,3 +1036,32 @@ body.teach #wrapper .tabs {margin-top:20px}
 body.teach .title_box {padding: 15px 20px;}
 
 body.teach .more {margin: 10px 0;}
+
+* ---------------------------------------- */
+/* teach intro */
+
+#store-intro {
+	margin-bottom: 40px;
+	margin-top: -40px;
+	margin-left: -30px;
+	height: 180px;
+	width: 990px;
+	background: url('images/intro-store.png') no-repeat;
+	z-index: 3;
+}
+
+#store-intro .divider {
+	margin-top: 162px;
+}
+
+body.store #header_wrapper {
+	background-color: #ae9fca;
+	background-image: url('images/bg-teach-header.png');
+	background-position: left bottom;
+	background-repeat: repeat;
+}
+
+body.store .post-header {
+	padding: 20px 30px;
+	background: #ae9fca;
+}
