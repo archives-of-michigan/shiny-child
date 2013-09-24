@@ -1046,7 +1046,7 @@ body.teach .more {margin: 10px 0;}
 	margin-left: -30px;
 	height: 180px;
 	width: 990px;
-	background: url('images/store-intro.png') no-repeat;
+	background: url('images/intro-store.png') no-repeat;
 	z-index: 3;
 }
 
