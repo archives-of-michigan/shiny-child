@@ -1043,7 +1043,7 @@ body.teach .more {margin: 10px 0;}
 #store-intro {
 	margin-bottom: 20px;
 	margin-top: -65px;
-	margin-left: -30px;
+	margin-left: 0px;
 	height: 250px;
 	width: 990px;
 	background: url('images/intro-store.png') no-repeat;
