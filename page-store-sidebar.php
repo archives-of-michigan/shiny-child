@@ -30,7 +30,7 @@ get_header(); ?>
 
 		</div>
 		<div id="sidebar" class="one_third last sidebar-right">
-			<?php get_sidebar('Store'); ?>
+			<?php get_sidebar(''); ?>
 		</div>
 		<br class="clear" />
 		</div>
