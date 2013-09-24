@@ -1037,10 +1037,10 @@ body.teach .title_box {padding: 15px 20px;}
 
 body.teach .more {margin: 10px 0;}
 
-* ---------------------------------------- */
-/* teach intro */
+/* ---------------------------------------- */
+/* store intro */
 
-body.store #store-intro {
+#store-intro {
 	margin-bottom: 40px;
 	margin-top: -40px;
 	margin-left: -30px;
@@ -1050,7 +1050,7 @@ body.store #store-intro {
 	z-index: 3;
 }
 
-body.store #store-intro .divider {
+#store-intro .divider {
 	margin-top: 162px;
 }
 
