@@ -1037,14 +1037,14 @@ body.teach .title_box {padding: 15px 20px;}
 
 body.teach .more {margin: 10px 0;}
 
-* ---------------------------------------- */
-/* teach intro */
+/* ---------------------------------------- */
+/* store intro */
 
 #store-intro {
-	margin-bottom: 40px;
-	margin-top: -40px;
-	margin-left: -30px;
-	height: 180px;
+	margin-bottom: 20px;
+	margin-top: -65px;
+	margin-left: 0px;
+	height: 250px;
 	width: 990px;
 	background: url('images/intro-store.png') no-repeat;
 	z-index: 3;
@@ -1054,14 +1054,3 @@ body.teach .more {margin: 10px 0;}
 	margin-top: 162px;
 }
 
-body.store #header_wrapper {
-	background-color: #ae9fca;
-	background-image: url('images/bg-teach-header.png');
-	background-position: left bottom;
-	background-repeat: repeat;
-}
-
-body.store .post-header {
-	padding: 20px 30px;
-	background: #ae9fca;
-}

@@ -1054,3 +1054,8 @@ body.teach .more {margin: 10px 0;}
 	margin-top: 162px;
 }
 
+#voucher_fields input[type="text"], #voucher_fields textarea {
+    float: left;
+    width: none !important;
+}
+
