@@ -1010,7 +1010,7 @@ li.product {
 
 #voucher_fields input[type="text"] {
     float: left;
-    width: none !important;
+    width: 85%;
 }	
 
 /* ---------------------------------------- */
