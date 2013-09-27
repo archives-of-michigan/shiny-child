@@ -1008,7 +1008,7 @@ li.product {
 	padding: 20px 10px;
 }
 
-#voucher_fields input[type="text"], #voucher_fields textarea {
+#recipient_name input[type="text"]{
     float: left;
     width: 85%;
 }	
