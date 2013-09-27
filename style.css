@@ -1007,7 +1007,11 @@ li.product {
 	height: 260px;
 	padding: 20px 10px;
 }
-	
+
+#voucher_fields input[type="text"] {
+    float: left;
+    width: none !important;
+}	
 
 /* ---------------------------------------- */
 /* Story Styling */
@@ -1052,10 +1056,5 @@ body.teach .more {margin: 10px 0;}
 
 #store-intro .divider {
 	margin-top: 162px;
-}
-
-#voucher_fields input[type="text"], #voucher_fields textarea {
-    float: left;
-    width: none !important;
 }
 
