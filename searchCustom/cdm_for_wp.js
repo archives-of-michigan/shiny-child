@@ -20,15 +20,15 @@ jQuery(document).ready(function() {
 	
 	jQuery("#portfolio-search").click(function () {	
 	
-		if (jQuery(this).text() == 'Advanced Search'){
+		if (jQuery(this).text() == 'Search'){
 			jQuery('body').css('backgroundPosition', '0 740px');
 			//jQuery('#header_wrapper').height(180);
-			jQuery(this).text('Close Advanced');
+			jQuery(this).text('Search');
 		
 		}else{
 			jQuery('body').css('backgroundPosition', '0 181px');
 			//jQuery('#header_wrapper').height(420);
-			jQuery(this).text('Advanced Search');
+			jQuery(this).text('Search');
 			
 		}
 		jQuery("#adv_search").slideToggle();

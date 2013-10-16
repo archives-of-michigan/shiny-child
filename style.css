@@ -191,6 +191,19 @@ ul.portfolio-columns {
 
 .portfolio .posted-meta a {color: #336699 !important;}
 
+#portfolio-search {
+    background: url("images/gradient-btn.png") repeat-x scroll 0 -7px #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    color: #777777;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    line-height: 18px;
+    padding: 5px 8px 6px;
+    text-decoration: none;
+}
+
 /* ---------------------------------------- */
 /* discover viewer style */
 
