@@ -191,7 +191,7 @@ ul.portfolio-columns {
 
 .portfolio .posted-meta a {color: #336699 !important;}
 
-a #portfolio-search {
+a#portfolio-search {
     background: url("images/gradient-btn.png") repeat-x scroll 0 -7px #EEEEEE;
     border: 1px solid #CCCCCC;
     border-radius: 4px 4px 4px 4px;
