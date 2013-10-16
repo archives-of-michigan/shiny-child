@@ -7,12 +7,14 @@
 get_header(); ?>
 	
 	<div id="wrapper"<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?> class="sidebar-left-wrapper"<?php elseif($e404_options['blog_layout'] == 'sidebar-right') : ?> class="sidebar-right-wrapper"<?php endif; ?>>
+		<div id="wrapper_inner">
+			
 		<div id="head_intro">
 			<div id="intro" class="text-intro">
-			<hr class="divider divider-bbottom">
+			<h1>Look</h1>
+			<p>A leisurely Look at Michigan's stories and traditions from yesterday to yesteryear.</p>
 			</div>
 		</div>
-		<div id="wrapper_inner">
 		
 	<?php if($e404_options['blog_intro_type'] != 'none' || $e404_options['breadcrumbs']) echo '<div id="head_intro">'; ?>
 		<?php include(OF_FILEPATH.'/blog-intro-box.php'); ?>
