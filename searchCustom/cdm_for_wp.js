@@ -18,6 +18,24 @@ jQuery(document).ready(function() {
 	
 	});
 	
+	jQuery("#portfolio-search").click(function () {	
+	
+		if (jQuery(this).text() == 'Advanced Search'){
+			jQuery('body').css('backgroundPosition', '0 740px');
+			//jQuery('#header_wrapper').height(180);
+			jQuery(this).text('Close Advanced');
+		
+		}else{
+			jQuery('body').css('backgroundPosition', '0 181px');
+			//jQuery('#header_wrapper').height(420);
+			jQuery(this).text('Advanced Search');
+			
+		}
+		jQuery("#adv_search").slideToggle();
+		get_collections_js();
+	
+	});
+	
 	jQuery("#simple_search_button").click(function(){
 		window.location= "http://seekingmichigan.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
 	});

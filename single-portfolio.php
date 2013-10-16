@@ -47,8 +47,7 @@ while ( have_posts() ) : the_post(); ?>
 				</div>
 				<ul>
 					<?php if($e404_all_options['e404_portfolio_like_this'] == 'true') : ?>
-					<li class="portfolio-likes"><span class="icon-btn"><a id="like-<?php echo $post->ID; ?>" class="tiptip fancy_icon like_this <?php echo $like_class; ?>" href="#" title="<?php echo e404_likes_text(e404_like_this($post->ID), false); ?>"></a></span></li>
-					<?php endif; ?>
+					<li id="portfolio-search">Search</li>
 					<li class="portfolio-all"><a href="<?php echo $portfolio_url; ?>">View Entire Collection</a></li>
 					<li class="portfolio-btns">
 						<a <?php if($prev_url) echo 'href="'.$prev_url.'"'; ?>class="prev browse arrowleft<?php if(!$prev) echo' disabled'; ?>"><span>prev</span></a>
