@@ -46,7 +46,7 @@ while ( have_posts() ) : the_post(); ?>
 					<?php endif; ?>
 				</div>
 				<ul>
-					<li id="portfolio-search"><a href="">Search</a></li>
+					<!--<li id="portfolio-search"><a href="">Search</a></li>-->
 					<li class="portfolio-all"><a href="<?php echo $portfolio_url; ?>">View Entire Collection</a></li>
 					<li class="portfolio-btns">
 						<a <?php if($prev_url) echo 'href="'.$prev_url.'"'; ?>class="prev browse arrowleft<?php if(!$prev) echo' disabled'; ?>"><span>prev</span></a>
