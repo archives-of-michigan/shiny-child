@@ -20,7 +20,7 @@ jQuery(document).ready(function() {
 	
 	jQuery("#portfolio-search").click(function () {	
 	
-		if (jQuery(this).text() == 'Search Open'){
+		if (jQuery(this).text() == 'Search'){
 			jQuery('body').css('backgroundPosition', '0 740px');
 			//jQuery('#header_wrapper').height(180);
 			jQuery(this).text('Close Search');
@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
 		}else{
 			jQuery('body').css('backgroundPosition', '0 181px');
 			//jQuery('#header_wrapper').height(420);
-			jQuery(this).text('Search Open');
+			jQuery(this).text('Search');
 			
 		}
 		jQuery("#adv_search").slideToggle();
