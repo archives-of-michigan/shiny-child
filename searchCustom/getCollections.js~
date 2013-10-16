@@ -10,12 +10,6 @@ function get_collections_js(){
 			deathBoxes();
 		});
 		deathBoxes();//call now on preselected
-		jQuery("#portfolio-search").parent().append(html);
-		jQuery("#portfolio-search").remove();
-		jQuery('.collBoxes').click(function(){
-			deathBoxes();
-		});
-		deathBoxes();//call now on preselected
 	});
 	
 }
