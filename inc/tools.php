@@ -243,7 +243,7 @@ function e404_breadcrumbs() {
 	
 	echo '<a href="'.home_url().'">'.__('Home', 'shiny').'</a>';
 	if($front_page_type == 'page' && e404_get_current_template() == 'index.php') {
-		echo ' <span>&rsaquo;</span> ';
+		/*echo ' <span>&rsaquo;</span> ';*/
 		$page_data = get_page(get_option('page_for_posts'));
 		/*echo '<a href="'.get_permalink(get_option('page_for_posts')).'">'.get_the_title($page_data).'</a>';*/
 	}
