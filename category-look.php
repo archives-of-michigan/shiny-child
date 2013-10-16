@@ -9,9 +9,7 @@ get_header(); ?>
 	<div id="wrapper"<?php if($e404_options['blog_layout'] == 'sidebar-left') : ?> class="sidebar-left-wrapper"<?php elseif($e404_options['blog_layout'] == 'sidebar-right') : ?> class="sidebar-right-wrapper"<?php endif; ?>>
 		<div id="head_intro">
 			<div id="intro" class="text-intro">
-				<h1>Look</h1>
-				<p>A leisurely Look at Michigan's stories and traditions from yesterday to yesteryear.</p>
-				<hr class="divider divider-bbottom">
+			<hr class="divider divider-bbottom">
 			</div>
 		</div>
 		<div id="wrapper_inner">
