@@ -13,11 +13,11 @@ get_header(); ?>
 			<div id="intro" class="text-intro">
 			<h1>Look</h1>
 			<p>A leisurely Look at Michigan's stories and traditions from yesterday to yesteryear.</p>
+			<hr class="divider divider-bbottom">
 			</div>
 		</div>
 		
-	<?php if($e404_options['blog_intro_type'] != 'none' || $e404_options['breadcrumbs']) echo '<div id="head_intro">'; ?>
-		<?php include(OF_FILEPATH.'/blog-intro-box.php'); ?>
+	<?php if($e404_options['blog_intro_type'] != 'none' || $e404_options['breadcrumbs']); ?>
 		<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
 	<?php if($e404_options['blog_intro_type'] != 'none' || $e404_options['breadcrumbs']) echo '</div>'; ?>
 	
