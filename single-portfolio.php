@@ -46,7 +46,6 @@ while ( have_posts() ) : the_post(); ?>
 					<?php endif; ?>
 				</div>
 				<ul>
-					<?php if($e404_all_options['e404_portfolio_like_this'] == 'true') : ?>
 					<li id="portfolio-search">Search</li>
 					<li class="portfolio-all"><a href="<?php echo $portfolio_url; ?>">View Entire Collection</a></li>
 					<li class="portfolio-btns">
