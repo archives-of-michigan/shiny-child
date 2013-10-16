@@ -10,6 +10,7 @@ function get_collections_js(){
 			deathBoxes();
 		});
 		deathBoxes();//call now on preselected
+	}).done(function( html ) {
 		jQuery("#portfolio-search").parent().append(html);
 		jQuery("#portfolio-search").remove();
 		jQuery('.collBoxes').click(function(){
