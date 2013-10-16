@@ -141,7 +141,7 @@ a.small-btn span, a.medium-btn span, a.big-btn span {
 
 #sidebar .widgets {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
-    background: rgb(230, 226, 213) /* The Fallback */
+    background: rgb(230, 226, 213); /* The Fallback */
     border: 1px solid rgba(0, 0, 0, 0.05);
     border: 1px solid rgb(220, 217, 204); /* The Fallback */
     border-radius: 4px 4px 4px 4px;
@@ -680,7 +680,7 @@ body.body_slider .events-table tbody {
 
 body.body_slider .events-table thead {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
-    background: rgb(230, 226, 213) /* The Fallback */
+    background: rgb(230, 226, 213); /* The Fallback */
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 4px 4px 0 0;
     margin-bottom: 0;
@@ -693,7 +693,7 @@ body.body_slider .events-table {
     height: auto;
     overflow: hidden;
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
-    background: rgb(230, 226, 213) /* The Fallback */
+    background: rgb(230, 226, 213); /* The Fallback */
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 4px 4px 4px 4px;
 }
