@@ -9,9 +9,6 @@ global $e404_options;
 ?>
 </div>
 <div id="footer_wrapper">
-	<div class="michigan-circle">
-		<img alt="michigan seal" src="-/img/michigan-state-circle.png">
-	</div>
 	<div id="footer">
 		<?php dynamic_sidebar('e404_footer_sidebar'); ?>
 		<br class="clear" />
