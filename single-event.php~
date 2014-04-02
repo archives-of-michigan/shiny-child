@@ -8,10 +8,10 @@ get_header(); ?>
 
 <div id="wrapper" class="sidebar-right-wrapper">
 		<div id="wrapper_inner">
-			<div id="head_intro"><a href="http://seekingmichigan.org/events/"></a>
+			<div id="head_intro"><a href="http://seekingmichigan.org/civil-war/"></a>
 				<div id="intro" class="text-intro"><h1>Events</h1><hr class="divider divider-bbottom">
 				</div>
-				><div id="breadcrumb"><a href="https://seekingmichigan.org">Home</a><span>İ</span><a href="https://seekingmichigan.org/events">Events</a><span>İ</span><?php the_title(); ?></div>
+			<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
 			</div>
 	
 		<div id="page-content" class="two_third">
@@ -31,7 +31,7 @@ get_header(); ?>
 
 		</div>
 		<div id="sidebar" class="one_third last sidebar-right">
-			<?php get_sidebar('events'); ?>
+			<?php get_sidebar('page'); ?>
 		</div>
 		<br class="clear" />
 		</div>
