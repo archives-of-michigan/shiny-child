@@ -805,7 +805,7 @@ table.em-calendar tbody td.eventfull-post {
     color: #999999;
 }
 
-.em-booking-form {margin-top: -50px;}
+.em-booking-form {margin-top: -20px;}
 
 .em-tickets {
 	width:610px;
@@ -821,7 +821,9 @@ table.em-calendar tbody td.eventfull-post {
 
 .em-booking-form label {width:165px !important;}
 
-.em-booking-form span.input-group {margin-left:175px !important;}
+.em-attendee-fields label {margin-top: -20px;}
+
+.em-booking-form span.input-group {margin-left:200px !important;}
 
 #em-booking-gateway-authorize_aim {
 	margin-top:20px;
@@ -834,6 +836,8 @@ table.em-calendar tbody td.eventfull-post {
 #em-booking-gateway-authorize_aim label {font-size: 14px;}
 
 .em-bookings-form-gateway-expiry select {width:30%;}
+
+.em-booking-form span.form-tip{border-bottom: none !important;}
 
 
 /* ---------------------------------------- */
