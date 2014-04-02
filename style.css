@@ -846,7 +846,7 @@ input#em-booking-submit.em-booking-submit {
   border: 1px solid #98AD2E;
 }
 
-.em-booking-sumbit input[type="submit"] { color: #FFFFFFF !important;}
+input#em-booking-submit { color: #FFFFFFF !important;}
 
 .em-cart-actions button {
   background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
