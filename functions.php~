@@ -91,13 +91,6 @@ register_sidebar(array(	'id' => 'e404_civilwar_sidebar',
 						'before_title' => '<h3>',
 						'after_title' => "</h3>\n"));
 
-register_sidebar(array(	'id' => 'e404_events_sidebar',
-						'name' => 'Events Sidebar',
-						'before_widget' => '<div id="%1$s" class="widgets %2$s">',
-						'after_widget' => "</div>\n",
-						'before_title' => '<h3>',
-						'after_title' => "</h3>\n"));
-
 if($e404_all_options['e404_footer_columns'] == '1')
 	$footer_class = 'full_page';
 elseif($e404_all_options['e404_footer_columns'] == '2')
