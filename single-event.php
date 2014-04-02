@@ -31,7 +31,7 @@ get_header(); ?>
 
 		</div>
 		<div id="sidebar" class="one_third last sidebar-right">
-			<?php get_sidebar('events'); ?>
+			<?php dynamic_sidebar('events'); ?>
 		</div>
 		<br class="clear" />
 		</div>
