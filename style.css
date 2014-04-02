@@ -805,7 +805,7 @@ table.em-calendar tbody td.eventfull-post {
     color: #999999;
 }
 
-.em-booking-form {margin-top: -20px;}
+.em-booking-form {margin-top: 0px;}
 
 .em-tickets {
 	width:610px;
@@ -839,7 +839,20 @@ table.em-calendar tbody td.eventfull-post {
 
 .em-booking-form span.form-tip{border-bottom: none !important;}
 
+.em-booking-form-details select {width: 60%;}
 
+.em-booking-buttons {
+  background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
+  border: 1px solid #98AD2E;
+  color: #FFFFFFF;
+}
+
+.em-cart-actions button {
+  background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
+  border: 1px solid #98AD2E;
+  color: #FFFFFF;
+}
+  
 /* ---------------------------------------- */
 /* DYNAMIC MAP CUSTOMIZATION */
 
