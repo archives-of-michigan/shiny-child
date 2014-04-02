@@ -11,7 +11,7 @@ get_header(); ?>
 			<div id="head_intro"><a href="http://seekingmichigan.org/events/"></a>
 				<div id="intro" class="text-intro"><h1>Events</h1><hr class="divider divider-bbottom">
 				</div>
-				><div id="breadcrumb"><a href="https://seekingmichigan.org">Home</a><span>İ</span><a href="https://seekingmichigan.org/events">Events</a><span>İ</span><?php the_title(); ?></div>
+				<div id="breadcrumb"><a href="https://seekingmichigan.org">Home</a><span>&gt;</span><a href="https://seekingmichigan.org/events">Events</a><span>&gt;</span><?php the_title(); ?></div>
 			</div>
 	
 		<div id="page-content" class="two_third">
