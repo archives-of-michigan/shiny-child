@@ -841,7 +841,7 @@ table.em-calendar tbody td.eventfull-post {
 
 .em-booking-form-details select {width: 60%;}
 
-.em-booking-buttons {
+.em-booking-buttons input {
   background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
   border: 1px solid #98AD2E;
   color: #FFFFFFF;
@@ -851,6 +851,8 @@ table.em-calendar tbody td.eventfull-post {
   background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
   border: 1px solid #98AD2E;
   color: #FFFFFF;
+  padding: 5px;
+  cursor: pointer;
 }
   
 /* ---------------------------------------- */
