@@ -5,7 +5,7 @@
  */
 
 ?>
-
+<body>
 <div id="wrapper">
 	<div id="wrapper_inner">
 	
@@ -23,5 +23,4 @@
 <?php endwhile; ?>
 		</div>
 	</div>
-
-<?php get_footer(); ?>
+</body>
