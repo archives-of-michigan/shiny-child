@@ -805,7 +805,7 @@ table.em-calendar tbody td.eventfull-post {
     color: #999999;
 }
 
-.em-booking-form {margin-top: -50px;}
+.em-booking-form {margin-top: 0px;}
 
 .em-tickets {
 	width:610px;
@@ -821,7 +821,9 @@ table.em-calendar tbody td.eventfull-post {
 
 .em-booking-form label {width:165px !important;}
 
-.em-booking-form span.input-group {margin-left:175px !important;}
+.em-attendee-fields label {margin-top: -20px;}
+
+.em-booking-form span.input-group {margin-left:200px !important;}
 
 #em-booking-gateway-authorize_aim {
 	margin-top:20px;
@@ -835,7 +837,25 @@ table.em-calendar tbody td.eventfull-post {
 
 .em-bookings-form-gateway-expiry select {width:30%;}
 
+.em-booking-form span.form-tip{border-bottom: none !important;}
 
+.em-booking-form-details select {width: 60%;}
+
+input#em-booking-submit.em-booking-submit {
+  background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
+  border: 1px solid #98AD2E;
+}
+
+input#em-booking-submit { color: #FFFFFFF !important;}
+
+.em-cart-actions button {
+  background: url("images/gradient-light.png") repeat-x scroll 0 -35px #A2B92E;
+  border: 1px solid #98AD2E;
+  color: #FFFFFF;
+  padding: 5px;
+  cursor: pointer;
+}
+  
 /* ---------------------------------------- */
 /* DYNAMIC MAP CUSTOMIZATION */
 

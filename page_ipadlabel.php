@@ -16,8 +16,8 @@
 <link rel='stylesheet' id='gforms_ready_class_css-css'  href='http://seekingmichigan.org/wp-content/plugins/gravityforms/css/readyclass.css?ver=1.8.7' type='text/css' media='all' />
 <link rel='stylesheet' id='gforms_browsers_css-css'  href='http://seekingmichigan.org/wp-content/plugins/gravityforms/css/browsers.css?ver=1.8.7' type='text/css' media='all' />
 </head>
-<body class=" customize-support">
-<div id="main_wrapper">
+<body>
+<div id="main_wrapper" class="labels">
 <div id="wrapper">
 	<div id="wrapper_inner">
 	
