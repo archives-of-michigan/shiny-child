@@ -6,6 +6,7 @@
 
 ?>
 <body>
+<div id="main_wrapper">
 <div id="wrapper">
 	<div id="wrapper_inner">
 	
@@ -23,4 +24,5 @@
 <?php endwhile; ?>
 		</div>
 	</div>
+</div>
 </body>
