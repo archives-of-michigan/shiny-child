@@ -183,7 +183,8 @@ body.body_slider #featured {
 
 #featured_inner { box-shadow: 0 169px 0 rgba(0, 0, 0, 0.05) inset;}
 
-#footer a { color: #cccc99; }
+#footer a { color: #cccc99 !important; }
+#footer span a{ color: #ffffff !important; }
 
 /* ---------------------------------------- */
 /* portfolio style */
