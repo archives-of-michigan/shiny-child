@@ -1075,8 +1075,8 @@ li.product {
 }	
 
 input.qty {
-  width: 50px;
-  height: 18px;
+  width: auto;
+  height: auto;
 }
 
 /* ---------------------------------------- */
