@@ -1074,6 +1074,11 @@ li.product {
     width: 85% !important;
 }	
 
+input.qty {
+  width: auto;
+  height: auto;
+}
+
 /* ---------------------------------------- */
 /* Story Styling */
 
