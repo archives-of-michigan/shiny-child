@@ -8,10 +8,8 @@ get_header(); ?>
 
 	
 	<div id="wrapper">
-	    <div id="featured_border">
-	    	<div id="featured_inner">
-	            <div id="missinglabel-intro"><a href="http://seekingmichigan.org/themissinglabelproject"></a></div>
-	        </div>
+	    <div id="ml_featured_border">
+	         <div id="missinglabel-intro"><a href="http://seekingmichigan.org/themissinglabelproject"></a></div>
 	    </div>
 <div id="wrapper_inner">
 		
