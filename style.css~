@@ -35,6 +35,8 @@ form {
 	margin-left: 0px;
 }
 
+#wrapper { margin: 0 auto 30px;}
+
 /* search box */
 
 #search {
@@ -1128,4 +1130,14 @@ body.teach .more {margin: 10px 0;}
   background-color: #F3EFE1 !important;
   background-image: url("images/bg/bg30.png");
   padding-top: 20px;
+}
+
+/* ---------------------------------------- */
+/* civil war style */
+
+#missinglabel-intro {
+	height: 160px;
+	width: 1100px;
+	background: url('images/callout_missinglabels.png') no-repeat;
+	margin-top: -65px;
 }

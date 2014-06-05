@@ -13,7 +13,7 @@ get_header();
 	<div id="featured">
 		<div id="featured_border">
 			<div id="featured_inner">
-				<?php e404_show_slider(7405); ?>
+				<?php e404_show_slider(); ?>
 			</div>
 		</div>
 	</div>
