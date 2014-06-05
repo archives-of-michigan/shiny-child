@@ -1136,10 +1136,9 @@ body.teach .more {margin: 10px 0;}
 /* civil war style */
 
 #missinglabel-intro {
-	height: 160px;
+	height: 130px;
 	width: 930px;
 	background: url('images/callout_missinglabels.png') no-repeat;
-	margin-top: -65px;
 }
 
 .nivo_Slider {
@@ -1156,6 +1155,7 @@ body.teach .more {margin: 10px 0;}
     margin: -65px 0 40px -15px;
     padding: 15px;
     width: 930px;
+    height: 130px
     border-radius: 15px;
     box-shadow: 0 1px 0 #D0D0D0, 0 5px 0 #D7D7D7, 0 6px 0 #C1C1C1, 0 8px 4px rgba(0, 0, 0, 0.17);
 }
