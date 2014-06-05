@@ -1141,3 +1141,10 @@ body.teach .more {margin: 10px 0;}
 	background: url('images/callout_missinglabels.png') no-repeat;
 	margin-top: -65px;
 }
+
+#wrapper .nivo_Slider {
+    background: url("images/bg/bg30.png") repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 #D0D0D0, 0 5px 0 #D7D7D7, 0 6px 0 #C1C1C1, 0 7px 4px rgba(0, 0, 0, 0.17);
+}

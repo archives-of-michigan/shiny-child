@@ -8,7 +8,7 @@ get_header(); ?>
 
 	
 	<div id="wrapper">
-	<div id="missinglabel-intro"><a href="http://seekingmichigan.org/themissinglabelproject"></a>
+	<div id="missinglabel-intro" class="border-box"><a href="http://seekingmichigan.org/themissinglabelproject"></a>
 		<div id="intro" class="text-intro">
 		</div>
 	</div>
@@ -33,7 +33,7 @@ get_header(); ?>
 
 		</div>
 		<div id="sidebar" class="one_third last sidebar-right">
-			<?php get_sidebar('labels'); ?>
+			<?php get_sidebar('page'); ?>
 		</div>
 		<br class="clear" />
 		</div>
