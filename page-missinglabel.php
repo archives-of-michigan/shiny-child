@@ -8,11 +8,11 @@ get_header(); ?>
 
 	
 	<div id="wrapper">
-	<div id="missinglabel-intro" class="border-box"><a href="http://seekingmichigan.org/themissinglabelproject"></a>
-		<div id="intro" class="text-intro">
-		</div>
-	</div>
-		
+	    <div id="featured_border">
+	    	<div id="featured_inner">
+	            <div id="missinglabel-intro" class="border-box"><a href="http://seekingmichigan.org/themissinglabelproject"></a></div>
+	        </div>
+	    </div>
 <div id="wrapper_inner">
 		
 	<?php if((isset($e404_options['main_intro_type']) && $e404_options['main_intro_type'] != 'none') || $e404_options['breadcrumbs']) echo '</div>'; ?>
