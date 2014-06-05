@@ -1131,3 +1131,15 @@ body.teach .more {margin: 10px 0;}
   background-image: url("images/bg/bg30.png");
   padding-top: 20px;
 }
+
+/* ---------------------------------------- */
+/* civil war style */
+
+#missinglabel-intro {
+	height: 335px;
+	width: 1100px;
+	background: url('images/callout-missinglabels.png') no-repeat;
+	margin-top: -156px;
+	margin-bottom: -20px;
+	margin-left: -120px;
+}
