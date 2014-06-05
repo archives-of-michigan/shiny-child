@@ -1141,14 +1141,6 @@ body.teach .more {margin: 10px 0;}
 	background: url('images/callout_missinglabels.png') no-repeat;
 }
 
-#islider1 {
-    background: none repeat scroll 0 0 #F5F5F5;
-    border: 1px solid #FFFFFF;
-    padding: 5px;
-    border-radius: 17px;
-    box-shadow: 0 1px 0 #D0D0D0, 0 4px 0 #D7D7D7, 0 5px 0 #C1C1C1, 0 6px 4px rgba(0, 0, 0, 0.17);
-}
-
 #ml_featured_border {
     background: url("images/bg/bg30.png") repeat scroll 0 0 #FFFFFF;
     border: 1px solid #FFFFFF;
