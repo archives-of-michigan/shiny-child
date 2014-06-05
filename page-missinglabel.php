@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="wrapper">
 	    <div id="featured_border">
 	    	<div id="featured_inner">
-	            <div id="missinglabel-intro" class="border-box"><a href="http://seekingmichigan.org/themissinglabelproject"></a></div>
+	            <div id="missinglabel-intro"><a href="http://seekingmichigan.org/themissinglabelproject"></a></div>
 	        </div>
 	    </div>
 <div id="wrapper_inner">
