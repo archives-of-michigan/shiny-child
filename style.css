@@ -1165,3 +1165,5 @@ body.teach .more {margin: 10px 0;}
 .display-posts-listing .listing-item {
     list-style: none !important;
 }
+
+.post-header h2 { color: #ffffff;}
