@@ -76,14 +76,12 @@ while ( have_posts() ) : the_post(); ?>
 						<span class="meta-year"><?php the_time('Y'); ?></span>
 					 </div>
 					 <div class="post-meta light-box">
-						<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-						<div class="meta posted-meta">
-							<?php if($e404_options['blog_post_author']) { echo '<span class="blog-author">', the_author_link(), '</span> '; } ?>
-							<?php if($e404_options['blog_post_categories']) { echo '<span class="blog-categories">', the_category(', '), '</span> '; } ?>
-							<?php if(!is_attachment() && comments_open($post->ID)) : ?><span class="blog-comments"><a href="<?php comments_link(); ?>"><?php comments_number('0', '1', '%'); ?></a></span><?php endif; ?>
+						<h2><?php the_title(); ?></h2>
+						<div class="meta posted-meta">	
 						<?php if($e404_all_options['e404_blog_like_this'] == 'true') : $like_class = e404_liked($post->ID) ? ' fancy_likes_you_like' : ''; ?>
 							<span class="blog-likes"><a href="#" id="like-<?php the_ID(); ?>" class="like_this<?php echo $like_class; ?>" title="<?php echo e404_likes_text(e404_like_this($post->ID), false); ?>"><?php echo e404_like_this($post->ID); ?></a></span>
 						<?php endif; ?>
+						    <?php if(!is_attachment() && comments_open($post->ID)) : ?><span class="blog-comments"><a href="<?php comments_link(); ?>"><?php comments_number('0', '1', '%'); ?></a></span><?php endif; ?>
 							<?php edit_post_link(__('Edit', 'shiny'), '<span class="edit-link">', '</span>'); ?>
 						</div>
 						<br class="clear" />
@@ -91,21 +89,7 @@ while ( have_posts() ) : the_post(); ?>
 				</div>
 				<div class="post_wrapper light-box">
 			<?php endif; ?>
-			<?php
-			if($e404_options['blog_use_thumbnail'] && !is_single()) {
-				if($e404_options['blog_use_excerpt']) the_excerpt(); else the_content(''); 
-			}
-			else {
-				if($e404_options['blog_use_excerpt'] && !is_single()) the_excerpt(); else the_content(''); 
-				?>
-				<br class="clear" />
-				<?php
-			}
-			?>
-
-			<?php if(!is_single() && $e404_options['blog_read_more']) : ?>
-				<p class="more"><span><a href="<?php the_permalink(); ?>"><?php echo($e404_options['blog_read_more_text']); ?></a></span></p>
-			<?php endif; ?>
+			<?php the_content(); ?>
 			
 			<?php if(is_single() && $e404_options['blog_post_tags']) : ?><div class="meta tags-meta"><?php the_tags('', ' '); ?></div><?php endif; ?>
 			</div>
@@ -117,26 +101,11 @@ while ( have_posts() ) : the_post(); ?>
 					<?php e404_share_this(); ?>
 				</div>
 			<?php endif; ?>
-				
-			<?php if(is_single() && $e404_options['blog_author_bio'] && !is_attachment()) : ?>
-				<?php $user = get_user_by('id', $post->post_author);
-				if($user->description) : ?>
-				<h3><?php _e('About the Author', 'shiny'); ?></h3>
-				<div id="post-author" class="light-box">
-					<div class="border-img alignleft"><?php echo get_avatar($post->post_author, 80, OF_DIRECTORY.'/images/avatar.png'); ?></div>
-					<div class="author-desc">
-						<h4><?php _e('Written by', 'shiny'); ?> <?php echo the_author_link(); ?></h4>
-						<p><?php echo $user->description; ?></p>
-					</div>
-					<br class="clear" />
-				</div>
-				<?php endif; ?>
-			<?php endif; ?>
 
 				<?php if(is_single() && !is_attachment() && comments_open($post->ID)) {
 					comments_template( '', true );
 				} ?>
-<?php endwhile; ?>
+                <?php endwhile; ?>
 			
 			<?php get_template_part('navigation'); ?>
 
