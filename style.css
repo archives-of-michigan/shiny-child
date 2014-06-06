@@ -1126,14 +1126,8 @@ body.teach .more {margin: 10px 0;}
 	margin-top: 162px;
 }
 
-.labels {
-  background-color: #F3EFE1 !important;
-  background-image: url("images/bg/bg30.png");
-  padding-top: 20px;
-}
-
 /* ---------------------------------------- */
-/* civil war style */
+/* Missing Label Project */
 
 #missinglabel-intro {
 	height: 130px;
@@ -1150,4 +1144,24 @@ body.teach .more {margin: 10px 0;}
     height: 130px;
     border-radius: 15px;
     box-shadow: 0 1px 0 #D0D0D0, 0 5px 0 #D7D7D7, 0 6px 0 #C1C1C1, 0 8px 4px rgba(0, 0, 0, 0.17);
+}
+
+.labels {
+  background-color: #F3EFE1 !important;
+  background-image: url("images/bg/bg30.png");
+  padding-top: 20px;
+  height: 700px;
+}
+
+.labels li.listing-item { 
+    list-style: none !important; 
+    padding-bottom: 10px;
+}
+
+.labels a.title {
+    text-decoration: none !important;
+}
+
+.display-posts-listing .listing-item {
+    list-style: none !important;
 }
