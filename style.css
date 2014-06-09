@@ -1166,6 +1166,6 @@ body.teach .more {margin: 10px 0;}
     list-style: none !important;
 }
 
-.post-header { color: #ffffff;}
+body.label .post-header { color: #ffffff;}
 
-.post-header h2 { color: #6D6D6D;}
+body.label .post-header h2 { color: #6D6D6D;}
