@@ -1168,7 +1168,7 @@ body.teach .more {margin: 10px 0;}
 
 body.label .post-header { 
     background: none repeat scroll 0 0 #ffffff;
-    border-bottom: 1px solid #6d6d6d;
+    border-bottom: 1px solid #bbbbbb;
 }
 
 body.label .post-header h2 { color: #6D6D6D;}
@@ -1176,3 +1176,5 @@ body.label .post-header h2 { color: #6D6D6D;}
 body.label .meta-day {color: #6d6d6d;}
 
 body.label .posted-meta a {color: #6d6d6d6 !important;}
+
+body.label .meta-month, .meta-year {color: #BBBBBB;}
