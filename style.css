@@ -1166,10 +1166,13 @@ body.teach .more {margin: 10px 0;}
     list-style: none !important;
 }
 
-body.label .post-header { background: none repeat scroll 0 0 #ffffff;}
+body.label .post-header { 
+    background: none repeat scroll 0 0 #ffffff;
+    border-bottom: 1px solid #6d6d6d;
+}
 
 body.label .post-header h2 { color: #6D6D6D;}
 
 body.label .meta-day {color: #6d6d6d;}
 
-body.label .posted-meta a {color: #6d6d6d6;}
+body.label .posted-meta a {color: #6d6d6d6 !important;}
