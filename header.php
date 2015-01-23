@@ -250,7 +250,7 @@ $cats = wp_get_post_categories($posts[0]->ID);
 			<span class="clear"></span>
 			<div>
 				<!---<a id="advanced_max_collections_link" class="action_link_10" href="javascript://"> Add or remove collections </a>--->
-				<img id="advanced_max_collections_link" src="//seekingmichigan.org//wp-includes/js/tinymce/themes/advanced/skins/default/img/progress.gif" >
+				<img id="advanced_max_collections_link" src="//seekingmichigan.org/wp-includes/js/tinymce/themes/advanced/skins/default/img/progress.gif" >
 			</div>
 		</div>
 		<span class="clear"></span>

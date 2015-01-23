@@ -60,6 +60,8 @@ echo ' class=""';
 	echo ' class="teach"';
 } elseif(is_category( 'michiganmitten' )) {
 	echo ' class="teach"';
+} elseif(is_category( 'missinglabelproject' )) {
+	echo ' class="label"';
 } elseif(is_category( 'archives-event' )) {
 	echo ' class=""';
 } elseif( is_single() ) {
