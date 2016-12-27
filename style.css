@@ -394,20 +394,6 @@ body.civilwar p.description {padding-bottom: 40px}
 /* ---------------------------------------- */
 /* teach intro */
 
-#teach-intro {
-	margin-bottom: 40px;
-	margin-top: -40px;
-	margin-left: -30px;
-	height: 180px;
-	width: 990px;
-	background: url('images/intro-teach.png') no-repeat;
-	z-index: 3;
-}
-
-#teach-intro .divider {
-	margin-top: 162px;
-}
-
 body.teach #header_wrapper {
 	background-color: #ae9fca;
 	background-image: url('images/bg-teach-header.png');

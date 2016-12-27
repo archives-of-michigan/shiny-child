@@ -7,11 +7,6 @@
 get_header(); ?>
 	
 	<div id="wrapper">
-		<div id="teach-intro">
-			<div id="intro" class="text-intro">
-			    <hr class="divider divider-bbottom">
-			</div>
-		</div>
 		<div id="wrapper_inner">
 		
 	        <?php if((isset($e404_options['main_intro_type']) && $e404_options['main_intro_type'] != 'none') || $e404_options['breadcrumbs']) echo '</div>'; ?>
