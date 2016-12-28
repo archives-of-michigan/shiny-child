@@ -411,15 +411,12 @@ body.teach a.big-btn span {
     box-shadow: none;
     color: #FFFFFF;
     display: block;
-    padding: 28px 58px 28px;
-}
-
-body.tech .big-btn span {
-  border-radius: none;
+    padding: 28px 75px 28px;
+    border-radius: 0px;
 }
 
 body.teach a.firstpeoples-btn span {
-    background: #A2B92E;
+    background: #AA2A53;
 }
 
 
