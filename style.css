@@ -406,19 +406,23 @@ body.teach .post-header {
 	background: #ae9fca;
 }
 
-body.teach a.big-btn span {
-    border: none;
-    box-shadow: none;
-    color: #FFFFFF;
-    display: block;
-    padding: 28px 75px 28px;
-    border-radius: 0px;
+body.teach .learn-box {
+    text-align: center;
+    background: #444;
+    padding: 15px;
+    width: inherit;
+} 
+
+body.teach .learn-box a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
 }
 
-body.teach a.firstpeoples-btn span {
-    background: #AA2A53;
+body.teach .featured-learn-box {
+  width: inherit;
 }
-
 
 /* ---------------------------------------- */
 /* blog - posts */
