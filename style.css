@@ -422,7 +422,7 @@ body.teach .learn-box a{
 
 body.teach .featured-learn-box {
     width: inherit;
-    height: 550px;
+    height: 630px;
     background: #333;
     align-content: center;
     color: #fff;
@@ -435,7 +435,7 @@ body.teach .featured-learn-box h4{
     padding: 25px 25px 10px;
 }
 
-body.teach .featured-learn-box .video-meta{
+body.teach .featured-learn-box p.video-meta{
     padding: 10px;
 }
 
