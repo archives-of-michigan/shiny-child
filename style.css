@@ -408,12 +408,28 @@ body.teach .post-header {
 
 body.teach .learn-box {
     text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
     background: #444;
-    padding: 25px 15px;
+    padding: 30px 15px;
     width: inherit;
 } 
 
 body.teach .learn-box a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+body.teach .learn-btm-box {
+    text-align: center;
+    background: #444;
+    padding: 30px 0px;
+    width: 33.3%;
+    float: left;
+} 
+
+body.teach .learn-btm-box a{
     color: #fff;
     text-decoration: none;
     text-align: center;
@@ -422,7 +438,7 @@ body.teach .learn-box a{
 
 body.teach .featured-learn-box {
     width: inherit;
-    height: 630px;
+    height: 560px;
     background: #333;
     align-content: center;
     color: #fff;
