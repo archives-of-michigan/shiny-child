@@ -409,7 +409,7 @@ body.teach .post-header {
 body.teach .learn-box {
     text-align: center;
     background: #444;
-    padding: 15px;
+    padding: 25px 15px;
     width: inherit;
 } 
 
@@ -432,6 +432,11 @@ body.teach .featured-learn-box {
 body.teach .featured-learn-box h4{
     font-size: 1.5em;
     color: #fff;
+    padding: 25px 25px 10px;
+}
+
+body.teach .featured-learn-box .video-meta{
+    padding: 10px;
 }
 
 body.teach .featured-learn-box a{
