@@ -426,16 +426,15 @@ body.teach .featured-learn-box {
     background: #333;
     align-content: center;
     color: #fff;
-    padding: 10px;
 }
 
 body.teach .featured-learn-box h4{
     font-size: 1.5em;
     color: #fff;
-    padding: 25px 25px 10px;
+    padding: 25px 10px;
 }
 
-body.teach .featured-learn-box p.video-meta{
+body.teach p.video-meta{
     padding: 10px;
 }
 
