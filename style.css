@@ -421,7 +421,21 @@ body.teach .learn-box a{
 }
 
 body.teach .featured-learn-box {
-  width: inherit;
+    width: inherit;
+    height: 550px;
+    background: #333;
+    align-content: center;
+    color: #fff;
+    padding: 10px;
+}
+
+body.teach .featured-learn-box h4{
+    font-size: 1.5em;
+    color: #fff;
+}
+
+body.teach .featured-learn-box a{
+    color: #fff;
 }
 
 /* ---------------------------------------- */
