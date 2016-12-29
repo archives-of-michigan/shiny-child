@@ -408,7 +408,7 @@ body.teach .post-header {
 
 body.teach .featured-learn-box {
     width: inherit;
-    height: 487px;
+    height: 485px;
     background: #fff;
     color: #444;
 }
@@ -463,7 +463,8 @@ body.teach .learn-btm-box {
     text-align: center;
     background: #8C7A99;
     padding: 30px 0px;
-    width: 33.2%;
+    width: 33.3%;
+    margin-right: -1px;
     float: left;
     border-left: 1px solid #fff;
     opacity: .6;
@@ -511,6 +512,15 @@ body.teach .learn-btm-sub-box a{
     text-decoration: none;
     text-align: center;
     font-size: 1.5em;
+}
+
+body.teach .video-cat {
+    background: #fff;
+}
+
+body.teach .video-cat a{
+    background: #fff;
+    color: #444;
 }
 
 /* ---------------------------------------- */
