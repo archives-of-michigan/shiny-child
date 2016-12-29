@@ -410,10 +410,14 @@ body.teach .learn-box {
     text-align: center;
     color: #ffffff;
     font-size: 1.5em;
-    background: #444;
+    background: #8C7A99;
     padding: 30px 15px;
     width: inherit;
+    border-bottom: 1px solid #9985AB;
+    opacity: .6;
 } 
+
+body.teach .browse-box {opacity: .9;}
 
 body.teach .learn-box a{
     color: #fff;
@@ -423,10 +427,12 @@ body.teach .learn-box a{
 
 body.teach .learn-btm-box {
     text-align: center;
-    background: #444;
+    background: #8C7A99;
     padding: 30px 0px;
     width: 33.3%;
     float: left;
+    border-bottom: 1px solid #9985AB;
+    opacity: .6;
 } 
 
 body.teach .learn-btm-box a{
@@ -438,13 +444,13 @@ body.teach .learn-btm-box a{
 
 body.teach .featured-learn-box {
     width: inherit;
-    height: 560px;
+    height: 450px;
     background: #333;
     align-content: center;
     color: #fff;
 }
 
-body.teach .featured-learn-box h4{
+body.teach .featured-learn-title-box h4{
     font-size: 1.5em;
     color: #fff;
     padding: 25px 10px;
