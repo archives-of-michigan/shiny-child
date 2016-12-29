@@ -433,6 +433,13 @@ body.teach .featured-learn-box a{
     color: #444;
 }
 
+body.teach .featured-learn-sub-box {
+    width: inherit;
+    height: 397px;
+    background: #fff;
+    color: #444;
+}
+
 body.teach .learn-box {
     text-align: center;
     color: #ffffff;
