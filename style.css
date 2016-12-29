@@ -494,6 +494,23 @@ body.teach .learn-sub-box a{
     text-align: center;
 }
 
+body.teach .learn-btm-sub-box {
+    text-align: center;
+    background: #8C7A99;
+    padding: 55px 0px;
+    width: 49.7%;
+    float: right;
+    border-right: 1px solid #9985AB;
+    opacity: .6;
+} 
+
+body.teach .learn-btm-sub-box a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
 /* ---------------------------------------- */
 /* blog - posts */
 
