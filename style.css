@@ -516,6 +516,7 @@ body.teach .learn-btm-sub-box a{
 
 body.teach .video-cat {
     background: #fff;
+    opacity: none !important;
 }
 
 body.teach .video-cat a{
