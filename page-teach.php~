@@ -9,7 +9,7 @@ get_header(); ?>
 	<div id="wrapper">
 		<div id="wrapper_inner">
 		
-		<div id="breadcrumb">?php e404_breadcrumbs(); ?></div>
+	        <?php if((isset($e404_options['main_intro_type']) && $e404_options['main_intro_type'] != 'none') || $e404_options['breadcrumbs']) echo '</div>'; ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" class="page-layout">
