@@ -408,7 +408,7 @@ body.teach .post-header {
 
 body.teach .featured-learn-box {
     width: inherit;
-    height: 485px;
+    height: 546px;
     background: #fff;
     color: #444;
 }
@@ -434,10 +434,11 @@ body.teach .featured-learn-box a{
 }
 
 body.teach .featured-learn-sub-box {
-    width: inherit;
+    width: 610px;
     height: 397px;
     background: #fff;
     color: #444;
+    float: left;
 }
 
 body.teach .learn-box {
@@ -445,7 +446,7 @@ body.teach .learn-box {
     color: #ffffff;
     font-size: 1.5em;
     background: #8C7A99;
-    padding: 30px 15px;
+    padding: 18px 15px;
     width: inherit;
     border-bottom: 1px solid #fff;
     opacity: .6;
@@ -487,7 +488,6 @@ body.teach .learn-sub-box {
     border-bottom: 1px solid #fff;
     border-left: 1px solid #fff;
     opacity: .6;
-    margin-left: -30px;
 } 
 
 body.teach .learn-sub-box a{
