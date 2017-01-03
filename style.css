@@ -433,12 +433,18 @@ body.teach .featured-learn-box a{
     color: #444;
 }
 
+body.teach .four_sixth{
+  float: left;
+  margin: 0px;
+  position: relative;
+  width: 610px;
+}
+
 body.teach .featured-learn-sub-box {
-    width: 610px;
-    height: 397px;
+    width: inherit;
+    height: 450px;
     background: #fff;
     color: #444;
-    float: left;
 }
 
 body.teach .learn-box {
@@ -483,7 +489,7 @@ body.teach .learn-sub-box {
     color: #ffffff;
     font-size: 1.5em;
     background: #8C7A99;
-    padding: 55px 15px;
+    padding: 68px 15px;
     width: inherit;
     border-bottom: 1px solid #fff;
     border-left: 1px solid #fff;
@@ -499,7 +505,7 @@ body.teach .learn-sub-box a{
 body.teach .learn-btm-sub-box {
     text-align: center;
     background: #8C7A99;
-    padding: 55px 0px;
+    padding: 68px 0px;
     width: 50%;
     margin-right: -1px;
     float: right;
