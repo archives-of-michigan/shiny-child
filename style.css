@@ -534,7 +534,7 @@ body.teach #wrapper .tabs{
   border-radius: 0px;
   border: none;
   background: #8C7A99;
-  height: auto;
+  height: 75px;
   margin-top: 0px;
 }
 
@@ -551,6 +551,8 @@ body.teach .tabs a{
   height: inherit;
   padding: 25px 0 0 0;
 }
+
+body.teach .tabs li{margin: 0;}
 
 body.teach .tabs li.current a {
   font-size: 1.5em;
@@ -1245,8 +1247,6 @@ input.qty {
 }	
 
 body.teach .info_box {margin-top:20px}
-
-body.teach #wrapper .tabs {margin-top:20px}
 
 body.teach .title_box {padding: 15px 20px;}
 
