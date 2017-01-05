@@ -536,11 +536,12 @@ body.teach #wrapper .tabs{
   background: #8C7A99;
   height: 75px;
   margin-top: 0px;
+  padding: 0px;
 }
 
 body.teach #wrapper .tabs li{
   height: inherit;
-  margin; 0;
+  margin: 0px;
   width: 33.3%;
   text-align: center;
 }
