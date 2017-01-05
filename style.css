@@ -530,6 +530,40 @@ body.teach .video-cat a{
     color: #444;
 }
 
+body.teach #wrapper .tabs{
+  border-radius: 0px;
+  border: none;
+  background: #8C7A99;
+  height: auto;
+  margin-top: 0px;
+}
+
+body.teach #wrapper .tabs li{
+  height: inherit;
+  margin; 0;
+  width: 33.3%;
+  text-align: center;
+}
+
+body.teach .tabs a{
+  font-size: 1.5em;
+  color: #fff !important;
+  height: inherit;
+  padding: 25px 0 0 0;
+}
+
+body.teach .tabs li.current a {
+  font-size: 1.5em;
+  color: #444 !important;
+  height: inherit;
+  border: none;
+  background: #fff;
+  border-radius: 0;
+}
+
+body.teach .tab_content{border-radius: 0;}
+  
+
 /* ---------------------------------------- */
 /* blog - posts */
 
