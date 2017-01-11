@@ -566,6 +566,25 @@ body.teach .tabs li.current a {
 
 body.teach .tab_content{border-radius: 0;}
   
+body.teach ul.display-posts-listing li{
+    height: 200px;
+}
+
+body.teach ul.display-posts-listing .image{
+    float: left;
+}
+  
+body.teach ul.display-posts-listing .title{ 
+    float: left;
+    font-size: 1.5em;
+    padding: 10px 0 10px 20px;
+}
+
+body.teach ul.display-posts-listing .excerpt {
+    display: block;
+    font-size: 1.25em;
+    padding: 30px 0 180px 0px;
+}
 
 /* ---------------------------------------- */
 /* blog - posts */
