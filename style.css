@@ -583,7 +583,8 @@ body.teach ul.display-posts-listing .title{
 body.teach ul.display-posts-listing .excerpt {
     display: block;
     font-size: 1.25em;
-    padding: 30px 0 180px 0px;
+    padding-top: 30px;
+    padding-left: 185px;
 }
 
 /* ---------------------------------------- */
