@@ -408,7 +408,7 @@ body.teach .post-header {
 
 body.teach .featured-learn-box {
     width: inherit;
-    height: 546px;
+    height: 544px;
     background: #fff;
     color: #444;
 }
@@ -452,7 +452,7 @@ body.teach .learn-box {
     color: #ffffff;
     font-size: 1.5em;
     background: #8C7A99;
-    padding: 18px 15px;
+    padding: 52px 15px;
     width: inherit;
     border-bottom: 1px solid #fff;
     opacity: .6;
