@@ -587,6 +587,10 @@ body.teach ul.display-posts-listing .excerpt {
     padding-left: 185px;
 }
 
+body.teach .tab_content li {
+  padding-bottom:10px;
+}
+
 /* ---------------------------------------- */
 /* blog - posts */
 
