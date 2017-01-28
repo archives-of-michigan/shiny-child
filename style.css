@@ -496,6 +496,12 @@ body.teach .learn-sub-box {
     opacity: .6;
 } 
 
+body.teach .empty-box {
+    height: 88px;
+    opacity: .7;
+}
+
+
 body.teach .learn-sub-box a{
     color: #fff;
     text-decoration: none;
