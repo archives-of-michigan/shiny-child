@@ -501,7 +501,6 @@ body.teach .empty-box {
     opacity: .7;
 }
 
-
 body.teach .learn-sub-box a{
     color: #fff;
     text-decoration: none;
@@ -595,6 +594,11 @@ body.teach ul.display-posts-listing .excerpt {
 
 body.teach .tab_content li {
   padding-bottom:20px;
+}
+
+body.teach .breakout-instruct {
+    font-size: 1.25em;
+    line-height: 2em;
 }
 
 /* ---------------------------------------- */
