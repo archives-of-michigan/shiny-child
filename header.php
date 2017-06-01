@@ -36,6 +36,8 @@ if(substr(e404_get_current_template(), 0, 9) == 'home-page') {
 	echo ' class="body_slider"';
 } elseif(substr(e404_get_current_template(), 0, 10) == 'page-teach') {
 	echo ' class="teach"';
+} elseif(substr(e404_get_current_template(), 0, 10) == 'page-rsa') {
+	echo ' class="rsa"';
 } elseif(substr(e404_get_current_template(), 0, 10) == 'page-store') {
 	echo ' class="store"';
 } elseif(substr(e404_get_current_template(), 0, 18) == 'portfolio-civilwar') {
