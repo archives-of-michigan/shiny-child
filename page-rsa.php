@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: River Street Anthology
+ * Template name: RSA Page
  *
  */
 
