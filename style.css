@@ -605,16 +605,15 @@ body.teach .breakout-instruct {
 /* river street anthology style*/
 
 body.rsa #header_wrapper {
-	background-color: #ae9fca;
 	background-image: url('images/bg-rsa-header.png');
 	background-position: left bottom;
 	background-repeat: repeat;
 }
 
-body.rsa .header-logo img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+body.rsa .header-logo {
+    background-image: url('images/rsa-logo-header.png');
+    background-repeat: none;
+    background-position: center;
 }
 
 body.rsa p.video-meta{
