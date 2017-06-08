@@ -612,7 +612,8 @@ body.rsa #header_wrapper {
 
 body.rsa .header-logo {
     display: inline-block;
-    margin-top: -60px;
+    margin-top: -25px;
+    margin-bottom: -25px;
 }
 
 body.rsa p.video-meta{
@@ -633,7 +634,7 @@ body.rsa .four_sixth{
   width: 610px;
 }
 
-body.rsa .icon-box {
+body.rsa .grid-box {
     text-align: center;
     color: #ffffff;
     font-size: 1.5em;
@@ -642,7 +643,6 @@ body.rsa .icon-box {
     width: inherit;
     border-bottom: 1px solid #fff;
     border-left: 1px solid #fff;
-    opacity: .6;
 } 
 
 body.rsa .empty-box {
@@ -650,13 +650,13 @@ body.rsa .empty-box {
     opacity: .7;
 }
 
-body.rsa .icon-box a{
+body.rsa .grid-box a{
     color: #fff;
     text-decoration: none;
     text-align: center;
 }
 
-body.rsa .icon-btm-box {
+body.rsa .grid-btm-box {
     text-align: center;
     background: #4f78d6;
     padding: 68px 0px;
@@ -664,10 +664,9 @@ body.rsa .icon-btm-box {
     margin-right: -1px;
     float: right;
     border-right: 1px solid #fff;
-    opacity: .6;
 } 
 
-body.rsa .icon-btm-box a{
+body.rsa .grid-btm-box a{
     color: #fff;
     text-decoration: none;
     text-align: center;
