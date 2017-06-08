@@ -611,9 +611,7 @@ body.rsa #header_wrapper {
 }
 
 body.rsa .header-logo {
-    background-image: url('images/rsa-logo-header.png');
-    background-repeat: none;
-    background-position: center;
+    opacity: .8;
 }
 
 body.rsa p.video-meta{
