@@ -611,7 +611,8 @@ body.rsa #header_wrapper {
 }
 
 body.rsa .header-logo {
-    opacity: .8;
+    display: inline-block;
+    margin-top: -60px;
 }
 
 body.rsa p.video-meta{
@@ -623,6 +624,13 @@ body.rsa .featured-box {
     height: 450px;
     background: #fff;
     color: #444;
+}
+
+body.rsa .four_sixth{
+  float: left;
+  margin: 0px;
+  position: relative;
+  width: 610px;
 }
 
 body.rsa .icon-box {
